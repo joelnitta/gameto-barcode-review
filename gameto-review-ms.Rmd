@@ -1,0 +1,60 @@
+---
+title: 'Identifying cryptic fern gametophytes using DNA barcoding: A review'
+author: "Joel Nitta"
+date: "6/5/2021"
+output: html_document
+bibliography: references_all.yaml
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+Ferns and lycophytes (collectively known as pteridophytes) are unique amongst land plants for having sporophyte (diploid) and gametophyte (haploid) life cycle stages that can grow independently of each other, and therefore may occur separately in nature. This is not the case for other the major land plant groups: in bryophytes (mosses, liverworts, and hornworts), the sporophyte is nutritionally dependent upon and physically attached to the gametophyte, whereas in seed plants, the gametophyte is either contained within the flower (female gametophyte), or does not grow into a nutritionally independent organism (male gametophyte; pollen). In these groups, one can sample the dominant life stage without regards for the other, dependent life stage. However, for pteridophytes, sampling one life stage alone is not sufficient to understand the complete distribution of the organism. This has critical implications for understanding the biology of ferns and lycophytes. 
+
+The vast majority of ecological studies of pteridophytes has sampled only sporophytes, since this is the larger, more obvious life stage. The gametophytes of pteridophytes, however, are much smaller (typically < 1 cm) and morphologically cryptic; i.e., they typically lack morphological characters that can be used to differentiate species. As the sexual stage (producing gametes and undergoing fertilization) gametophytes are critically important for pteridophyte biology. 
+
+DNA barcoding is a powerful method to enable species identification of field-collected fern gametophytes.
+
+## Beginnings
+
+The first use of DNA sequences to identify fern gametophytes was by @Schneider2006a, who sequenced *rbcL* from a cultivated gametophyte to identify it is *Osmunda regalis*. 
+
+- Establishment of DNA barcoding
+- First example of DNA barcoding of gametophytes? [@Schneider2006a]
+- Mysterious aquatic fern [@Li2009a]
+
+## Choosing a barcode marker
+
+- rbcL plus trnHpsbA in Japan (Ebihara, Nitta, and Ito 2010)
+- rbcL in Costa Rica (Nitta, Ebihara, and Smith 2020)
+- rbcL plus matK [@Li2011]
+- trnLF for identification of vittarioid gametophytes [@Chen2013a]
+- Eurpoe de Groot et al. 2011)
+
+## Range expansions
+
+Most common application of DNA barcoding. Vittarioid ferns are a recurring theme.
+
+- H. wrightii in Alaska [@Duffy2015]
+- Vittaria appalachiana in GA [@Pinson2017]
+- Vittarioid ferns on Jeju island [@Park2020; @Park2021]
+- P. makinoi, C. intricatum, H. wrightii in Korea [@Lee2020]
+
+## Community ecology
+
+- Community assembly in Tahiti (Nitta et al. 2017)
+- Japan gameto survey (Ebihara et al. 2013)
+
+## Ecology
+
+- Determining hemi-epiphyte status (Nitta and Epps 2009)
+- Comparison of desiccation tolerance between filmy G & S [@Nitta2021]
+
+## Future outlook
+
+- tissue direct PCR (Li, Kuo, et al. 2009)
+- multiplexing DNA barcoding [@Gostel2020]
+- MinIon sequencing for field direct ID?
+ 
+## References
