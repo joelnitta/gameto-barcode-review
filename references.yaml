@@ -1,0 +1,1170 @@
+references:
+- id: Chambers2016
+  author:
+  - family: Chambers
+    given: Sally M.
+  - family: Emery
+    given: N. C.
+  container-title: American Journal of Botany
+  DOI: 10.3732/ajb.1500077
+  ISSN: 0002-9122
+  issued:
+  - year: 2016
+  page: 1-13
+  title: Population differentiation and countergradient variation throughout the geographic
+    range in the fern gametophyte Vittaria appalachiana
+  type: article-journal
+  URL: http://www.amjbot.org/cgi/doi/10.3732/ajb.1500077
+  volume: '103'
+- id: Chambers2017
+  author:
+  - family: Chambers
+    given: Sally M.
+  - family: Watkins Jr.
+    given: James E
+  - family: Sessa
+    given: Emily B
+  DOI: 10.3732/ajb.1600279
+  issue: '4'
+  issued:
+  - year: 2017
+  page: 1-10
+  title: Differences in dehydration tolerance among populations of a gametophyte-only
+    fern
+  type: article-journal
+  volume: '104'
+- id: Chase2005
+  author:
+  - family: Chase
+    given: M
+  - family: Salamin
+    given: 'N'
+  - family: Wilkinson
+    given: M
+  - family: Dunwell
+    given: J
+  - family: Kesanakurthi
+    given: R
+  - family: Haidar
+    given: 'N'
+  - family: Savolainen
+    given: V
+  container-title: 'Philosophical Transactions of the Royal Society B: Biological
+    Sciences'
+  ISSN: 1471-2970
+  issue: '1462'
+  issued:
+  - year: 2005
+    month: 9
+  page: 1889-1895
+  title: 'Land plants and DNA barcodes: short-term and long-term goals'
+  type: article-journal
+  URL: papers://ebd7d3df-d8f1-4be8-bcf7-4fb07ababf30/Paper/p563
+  volume: '360'
+- id: Chase2007
+  author:
+  - family: Chase
+    given: M
+  - family: Cowan
+    given: R
+  - family: Hollingsworth
+    given: P
+  - family: Berg
+    given: C
+    non-dropping-particle: van den
+  - family: Madrinan
+    given: S
+  - family: Petersen
+    given: G
+  - family: Seberg
+    given: O
+  - family: Jorgsensen
+    given: T
+  - family: Cameron
+    given: K
+  - family: Carine
+    given: M
+  - family: Pedersen
+    given: 'N'
+  - family: Hedderson
+    given: T
+  - family: Conrad
+    given: F
+  - family: Salazar
+    given: G
+  - family: Richardson
+    given: J
+  - family: Hollingsworth
+    given: M
+  - family: Barraclough
+    given: T
+  - family: Kelly
+    given: L
+  - family: Wilkinson
+    given: M
+  container-title: Taxon
+  issue: '2'
+  issued:
+  - year: 2007
+  page: 295-299
+  title: A proposal for a standardised protocol to barcode all land plants
+  type: article-journal
+  URL: papers://ebd7d3df-d8f1-4be8-bcf7-4fb07ababf30/Paper/p469
+  volume: '56'
+- id: Chen2010
+  author:
+  - family: Chen
+    given: S
+  - family: Yao
+    given: H
+  - family: Han
+    given: J
+  - family: Liu
+    given: C
+  - family: Song
+    given: J
+  - family: Shi
+    given: L
+  - family: Zhu
+    given: 'Y'
+  - family: Ma
+    given: X
+  - family: Gao
+    given: T
+  - family: Pang
+    given: X
+  container-title: PLoS ONE
+  ISSN: 1932-6203
+  issue: '1'
+  issued:
+  - year: 2010
+  page: e8613
+  title: Validation of the ITS2 region as a novel DNA barcode for identifying medicinal
+    plant species
+  type: article-journal
+  URL: papers://ebd7d3df-d8f1-4be8-bcf7-4fb07ababf30/Paper/p1371
+  volume: '5'
+- id: Chen2013a
+  author:
+  - family: Chen
+    given: Cheng-Wei
+  - family: Huang
+    given: 'Y'
+  - family: Kuo
+    given: Li-Yaung
+  - family: Nguyen
+    given: Q
+  - family: Luu
+    given: H
+  - family: Callado
+    given: J
+  - family: Farrar
+    given: Donald R
+  - family: Chiou
+    given: Wen-Liang
+  container-title: Annals of Botany
+  ISSN: 1095-8290
+  issue: '4'
+  issued:
+  - year: 2013
+    month: 2
+  page: 663-673
+  title: '*trnL-F* is a powerful marker for DNA identification of field vittarioid
+    gametophytes (Pteridaceae)'
+  type: article-journal
+  URL: papers://ebd7d3df-d8f1-4be8-bcf7-4fb07ababf30/Paper/p2251
+  volume: '111'
+- id: DeGroot2011a
+  author:
+  - family: Groot
+    given: G. Arjen
+    non-dropping-particle: de
+  - family: During
+    given: Heinjo J.
+  - family: Maas
+    given: Jan W.
+  - family: Schneider
+    given: Harald
+  - family: Vogel
+    given: Johannes C
+  - family: Erkens
+    given: Roy H. J.
+  container-title: PLoS ONE
+  DOI: 10.1371/journal.pone.0016371
+  ISSN: 1932-6203
+  issue: '1'
+  issued:
+  - year: 2011
+  page: e16371
+  title: 'Use of *rbcL* and *trnL-F* as a two-locus DNA barcode for identification
+    of NW-European ferns: An ecological perspective'
+  type: article-journal
+  URL: papers://ebd7d3df-d8f1-4be8-bcf7-4fb07ababf30/Paper/p1605
+  volume: '6'
+- id: Duffy2015
+  author:
+  - family: Duffy
+    given: Aaron M.
+  - family: Stensvold
+    given: Mary C.
+  - family: Farrar
+    given: Donald R
+  container-title: American Fern Journal
+  DOI: 10.1640/0002-8444-105.1.45
+  ISSN: 00028444
+  issue: '1'
+  issued:
+  - year: 2015
+  page: 45-55
+  title: 'Independent gametophytes of <span class="nocase">*Hymenophyllum wrightii*</span>
+    in North America: not as rare as we thought'
+  type: article-journal
+  volume: '105'
+- id: Ebihara2008a
+  author:
+  - family: Ebihara
+    given: Atsushi
+  - family: Farrar
+    given: Donald R
+  - family: Ito
+    given: M
+  container-title: American Journal of Botany
+  ISSN: 1537-2197
+  issue: '12'
+  issued:
+  - year: 2008
+    month: 11
+  page: 1645-1651
+  title: The sporophyte-less filmy fern of eastern North America <span class="nocase">*Trichomanes
+    intricatum*</span> (Hymenophyllaceae) has the chloroplast genome of an Asian species
+  type: article-journal
+  URL: papers://ebd7d3df-d8f1-4be8-bcf7-4fb07ababf30/Paper/p621
+  volume: '95'
+- id: Ebihara2010
+  author:
+  - family: Ebihara
+    given: Atsushi
+  - family: Nitta
+    given: Joel H.
+  - family: Ito
+    given: M
+  container-title: PLoS ONE
+  DOI: 10.1371/journal.pone.0015136
+  ISSN: 1932-6203
+  issue: '12'
+  issued:
+  - year: 2010
+    month: 12
+    day: 8
+  page: e15136
+  title: 'Molecular species identification with rich floristic sampling: DNA barcoding
+    the pteridophyte flora of Japan'
+  type: article-journal
+  URL: http://dx.plos.org/10.1371/journal.pone.0015136
+  volume: '5'
+- id: Ebihara2013
+  author:
+  - family: Ebihara
+    given: Atsushi
+  - family: Yamaoka
+    given: A
+  - family: Mizukami
+    given: 'N'
+  - family: Sakoda
+    given: A
+  - family: Nitta
+    given: Joel H.
+  - family: Imaichi
+    given: Ryoko
+  container-title: American Journal of Botany
+  DOI: 10.3732/ajb.1200555
+  ISSN: 1537-2197
+  issue: '4'
+  issued:
+  - year: 2013
+    month: 4
+    day: 1
+  page: 735-743
+  title: 'A survey of the fern gametophyte flora of Japan: Frequent independent occurrences
+    of noncordiform gametophytes'
+  type: article-journal
+  URL: https://onlinelibrary.wiley.com/doi/abs/10.3732/ajb.1200555
+  volume: '100'
+- id: Ebihara2019a
+  author:
+  - family: Ebihara
+    given: Atsushi
+  - family: Nitta
+    given: Joel H.
+  - family: Matsumoto
+    given: Yurika
+  - family: Fukazawa
+    given: Yuri
+  - family: Kurihara
+    given: Marie
+  - family: Yokote
+    given: Hitomi
+  - family: Sakuma
+    given: Kaoru
+  - family: Azakami
+    given: Otowa
+  container-title: Bulletin of the National Museum of Nature and Science, Series B
+    (Botany), Tokyo
+  issue: '2'
+  issued:
+  - year: 2019
+    month: 5
+    day: 22
+  page: 77-86
+  title: Growth dynamics of independent gametophytes of *Pleurosoriopsis makinoi*
+    (Polypodiaceae)
+  type: article-journal
+  volume: '45'
+- id: Farrar1967
+  author:
+  - family: Farrar
+    given: Donald R
+  container-title: Science
+  ISSN: 1095-9203
+  issue: '3767'
+  issued:
+  - year: 1967
+  page: 1266-1267
+  title: Gametophytes of four tropical fern genera reproducing independently of their
+    sporophytes in the southern Appalachians
+  type: article-journal
+  URL: papers://ebd7d3df-d8f1-4be8-bcf7-4fb07ababf30/Paper/p1659
+  volume: '155'
+- id: Gostel2020
+  accessed:
+  - year: 2021
+    month: 2
+    day: 10
+  author:
+  - family: Gostel
+    given: Morgan R.
+  - family: Zúñiga
+    given: Jose D.
+  - family: Kress
+    given: W. John
+  - family: Funk
+    given: Vicki A.
+  - family: Puente-Lelievre
+    given: Caroline
+  container-title: Scientific Reports
+  DOI: 10/gg539d
+  ISSN: 2045-2322
+  issue: '1'
+  issued:
+  - year: 2020
+    month: 5
+    day: 26
+  language: en
+  number: '1'
+  page: '8701'
+  publisher: Nature Publishing Group
+  source: www.nature.com
+  title: 'Microfluidic Enrichment Barcoding (MEBarcoding): a new method for high throughput
+    plant DNA barcoding'
+  title-short: Microfluidic Enrichment Barcoding (MEBarcoding)
+  type: article-journal
+  URL: https://www.nature.com/articles/s41598-020-64919-z
+  volume: '10'
+- id: Group2008
+  author:
+  - family: Hollingsworth
+    given: P. M.
+  - family: Forrest
+    given: L. L.
+  - family: Spouge
+    given: J. L.
+  - family: Hajibabaei
+    given: M.
+  - family: Ratnasingham
+    given: S.
+  - family: Bank
+    given: M.
+    non-dropping-particle: van der
+  - family: Chase
+    given: M. W.
+  - family: Cowan
+    given: R. S.
+  - family: Erickson
+    given: D. L.
+  - family: Fazekas
+    given: A. J.
+  - family: Graham
+    given: S. W.
+  - family: James
+    given: K. E.
+  - family: Kim
+    given: K.-J.
+  - family: Kress
+    given: W. J.
+  - family: Schneider
+    given: H.
+  - family: AlphenStahl
+    given: J.
+    non-dropping-particle: van
+  - family: Barrett
+    given: S. C.H.
+  - family: Berg
+    given: C.
+    non-dropping-particle: van den
+  - family: Bogarin
+    given: D.
+  - family: Burgess
+    given: K. S.
+  - family: Cameron
+    given: K. M.
+  - family: Carine
+    given: M.
+  - family: Chacon
+    given: J.
+  - family: Clark
+    given: A.
+  - family: Clarkson
+    given: J. J.
+  - family: Conrad
+    given: F.
+  - family: Devey
+    given: D. S.
+  - family: Ford
+    given: C. S.
+  - family: Hedderson
+    given: T. A.J.
+  - family: Hollingsworth
+    given: M. L.
+  - family: Husband
+    given: B. C.
+  - family: Kelly
+    given: L. J.
+  - family: Kesanakurti
+    given: P. R.
+  - family: Kim
+    given: J. S.
+  - family: Kim
+    given: Y.-D.
+  - family: Lahaye
+    given: R.
+  - family: Lee
+    given: H.-L.
+  - family: Long
+    given: D. G.
+  - family: Madrinan
+    given: S.
+  - family: Maurin
+    given: O.
+  - family: Meusnier
+    given: I.
+  - family: Newmaster
+    given: S. G.
+  - family: Park
+    given: C.-W.
+  - family: Percy
+    given: D. M.
+  - family: Petersen
+    given: G.
+  - family: Richardson
+    given: J. E.
+  - family: Salazar
+    given: G. A.
+  - family: Savolainen
+    given: V.
+  - family: Seberg
+    given: O.
+  - family: Wilkinson
+    given: M. J.
+  - family: Yi
+    given: D.-K.
+  - family: Little
+    given: D. P.
+  container-title: Proceedings of the National Academy of Sciences
+  DOI: 10.1073/pnas.0905845106
+  ISSN: 0027-8424
+  issue: '31'
+  issued:
+  - year: 2009
+    month: 8
+  page: 12794-12797
+  title: A DNA barcode for land plants
+  type: article-journal
+  URL: papers2://publication/doi/10.3354/esr00141 http://www.pnas.org/cgi/doi/10.1073/pnas.0905845106
+  volume: '106'
+- id: Hebert2003a
+  author:
+  - family: Hebert
+    given: P
+  - family: Ratnasingham
+    given: S
+  - family: DeWaard
+    given: J
+  container-title: Proceedings of the Royal Society of London B Biological Sciences
+  issued:
+  - year: 2003
+  page: S96-S99
+  title: 'Barcoding animal life: cytochrome c oxidase subunit 1 divergences among
+    closely related species'
+  type: article-journal
+  URL: papers://ebd7d3df-d8f1-4be8-bcf7-4fb07ababf30/Paper/p442
+  volume: '270'
+- id: Hebert2003b
+  author:
+  - family: Hebert
+    given: Paul D. N.
+  - family: Cywinska
+    given: Alina
+  - family: Ball
+    given: Shelley L.
+  - family: deWaard
+    given: Jeremy R.
+  container-title: Proceedings of the Royal Society of London B Biological Sciences
+  DOI: 10.1098/rspb.2002.2218
+  issue: '1512'
+  issued:
+  - year: 2003
+  page: 313-321
+  title: Biological identifications through DNA barcodes
+  type: article-journal
+  URL: papers://ebd7d3df-d8f1-4be8-bcf7-4fb07ababf30/Paper/p431
+  volume: '270'
+- id: Hollingsworth2011
+  author:
+  - family: Hollingsworth
+    given: P
+  - family: Graham
+    given: S
+  - family: Little
+    given: D
+  container-title: PLoS ONE
+  ISSN: 1932-6203
+  issue: '5'
+  issued:
+  - year: 2011
+    month: 5
+  page: e19254
+  title: Choosing and using a plant DNA barcode
+  type: article-journal
+  URL: papers://ebd7d3df-d8f1-4be8-bcf7-4fb07ababf30/Paper/p1707
+  volume: '6'
+- id: Hollingsworth2011a
+  accessed:
+  - year: 2021
+    month: 6
+    day: 8
+  author:
+  - family: Hollingsworth
+    given: P. M.
+  container-title: Proceedings of the National Academy of Sciences
+  container-title-short: Proceedings of the National Academy of Sciences
+  DOI: 10/bsz26f
+  ISSN: 0027-8424, 1091-6490
+  issue: '49'
+  issued:
+  - year: 2011
+    month: 12
+    day: 6
+  language: en
+  page: 19451-19452
+  source: DOI.org (Crossref)
+  title: Refining the DNA barcode for land plants
+  type: article-journal
+  URL: http://www.pnas.org/cgi/doi/10.1073/pnas.1116812108
+  volume: '108'
+- id: Kress2005
+  author:
+  - family: Kress
+    given: W John
+  - family: Wurdack
+    given: K
+  - family: Zimmer
+    given: E
+  - family: Weigt
+    given: L
+  - family: Janzen
+    given: Daniel H
+  container-title: Proceedings of the National Academy of Sciences of the United States
+    of America
+  issued:
+  - year: 2005
+  page: 8369-8374
+  title: Use of DNA barcodes to identify flowering plants
+  type: article-journal
+  URL: papers://ebd7d3df-d8f1-4be8-bcf7-4fb07ababf30/Paper/p417
+  volume: '102'
+- id: Kress2007a
+  author:
+  - family: Kress
+    given: W John
+  - family: Erickson
+    given: David L.
+  container-title: PLoS ONE
+  ISSN: 1932-6203
+  issue: '6'
+  issued:
+  - year: 2007
+  page: e508
+  title: 'A two-locus global DNA barcode for land plants: the coding *rbcL* gene complements
+    the non-coding *trnH–psbA* spacer region'
+  type: article-journal
+  URL: papers://ebd7d3df-d8f1-4be8-bcf7-4fb07ababf30/Paper/p444
+  volume: '2'
+- id: Kuo2014a
+  author:
+  - family: Kuo
+    given: Li-Yaung
+  - family: Tang
+    given: D.-Y.
+  - family: Huang
+    given: Yao-Moan
+  - family: Chen
+    given: Cheng-Wei
+  - family: Fan
+    given: S.-W.
+  - family: Wang
+    given: C.-N.
+  - family: Chiou
+    given: Wen-Liang
+  event: The 6th Asian Fern Symposium
+  event-place: Bali, Indonesia
+  issued:
+  - year: 2014
+  publisher-place: Bali, Indonesia
+  title: Cryptic species  diversity  on  field  fern  gametophyte  flora  in  Fushan  (Taiwan)
+  type: speech
+- id: Kuo2017b
+  author:
+  - family: Kuo
+    given: Li-Yaung
+  - family: Chen
+    given: Cheng-Wei
+  - family: Shinohara
+    given: Wataru
+  - family: Ebihara
+    given: Atsushi
+  - family: Kudoh
+    given: Hiroshi
+  - family: Sato
+    given: Hirotoshi
+  - family: Huang
+    given: Yao Moan
+  - family: Chiou
+    given: Wen Liang
+  container-title: Journal of Plant Research
+  DOI: 10.1007/s10265-016-0897-x
+  ISSN: 09189440
+  issue: '2'
+  issued:
+  - year: 2017
+  page: 255-262
+  title: 'Not only in the temperate zone: Independent gametophytes of two vittarioid
+    ferns (Pteridaceae, Polypodiales) in East Asian subtropics'
+  type: article-journal
+  volume: '130'
+- id: Lahaye2008
+  author:
+  - family: Lahaye
+    given: R
+  - family: Van Der Bank
+    given: M
+  - family: Bogarin
+    given: D
+  - family: Warner
+    given: J
+  - family: Pupulin
+    given: F
+  - family: Gigot
+    given: G
+  - family: Maurin
+    given: O
+  - family: Duthoit
+    given: S
+  - family: Barraclough
+    given: T
+  - family: Savolainen
+    given: V
+  container-title: Proceedings of the National Academy of Sciences
+  ISSN: 1091-6490
+  issue: '8'
+  issued:
+  - year: 2008
+  page: '2923'
+  title: DNA barcoding the floras of biodiversity hotspots
+  type: article-journal
+  URL: papers://ebd7d3df-d8f1-4be8-bcf7-4fb07ababf30/Paper/p607
+  volume: '105'
+- id: Lee2020
+  accessed:
+  - year: 2021
+    month: 6
+    day: 5
+  author:
+  - family: Lee
+    given: Chang Shook
+  - family: Lee
+    given: Kanghyup
+  - family: Hwang
+    given: Youngsim
+  container-title: Korean Journal of Plant Taxonomy
+  container-title-short: Korean J. Pl. Taxon
+  DOI: 10.11110/kjpt.2020.50.4.403
+  ISSN: 1225-8318, 2466-1546
+  issue: '4'
+  issued:
+  - year: 2020
+    month: 12
+    day: 31
+  language: en
+  page: 403-412
+  source: DOI.org (Crossref)
+  title: Identification of three independent fern gametophytes and Hymenophyllum wrightii
+    f. serratum from Korea based on molecular data
+  type: article-journal
+  URL: http://e-kjpt.org/journal/view.php?doi=10.11110/kjpt.2020.50.4.403
+  volume: '50'
+- id: Li2009
+  author:
+  - family: Li
+    given: Fay-Wei
+  - family: Kuo
+    given: Li-Yaung
+  - family: Huang
+    given: Y.-M.
+  - family: Chiou
+    given: Wen-Liang
+  - family: Wang
+    given: C.-N.
+  container-title: Molecular Ecology Resources
+  ISSN: '17550998'
+  issue: '1'
+  issued:
+  - year: 2009
+  page: 92-95
+  title: Tissue direct PCR, a rapid and extraction free method for barcoding of ferns
+  type: article-journal
+  URL: papers://ebd7d3df-d8f1-4be8-bcf7-4fb07ababf30/Paper/p1604
+  volume: '10'
+- id: Li2009a
+  author:
+  - family: Li
+    given: Fay-Wei
+  - family: Tan
+    given: Benito C.
+  - family: Buchbender
+    given: Volker
+  - family: Moran
+    given: Robbin C.
+  - family: Rouhan
+    given: Germinal
+  - family: Wang
+    given: Chun-Neng
+  - family: Quandt
+    given: Dietmar
+  container-title: Plant Systematics and Evolution
+  DOI: 10.1007/s00606-009-0188-2
+  ISSN: 1615-6110
+  issued:
+  - year: 2009
+  page: 77-86
+  title: Identifying a mysterious aquatic fern gametophyte
+  type: article-journal
+  URL: papers://ebd7d3df-d8f1-4be8-bcf7-4fb07ababf30/Paper/p908
+  volume: '281'
+- id: Li2011
+  author:
+  - family: Li
+    given: Fay-Wei
+  - family: Kuo
+    given: Li-Yaung
+  - family: Rothfels
+    given: Carl J.
+  - family: Ebihara
+    given: Atsushi
+  - family: Chiou
+    given: Wen-Liang
+  - family: Windham
+    given: Michael D
+  - family: Pryer
+    given: Kathleen M
+  container-title: PLoS ONE
+  DOI: 10.1371/journal.pone.0026597
+  ISSN: 1932-6203
+  issue: '10'
+  issued:
+  - year: 2011
+    month: 10
+  page: e26597
+  title: '*rbcL* and *matK* earn two thumbs up as the core DNA barcode for ferns'
+  type: article-journal
+  URL: papers://ebd7d3df-d8f1-4be8-bcf7-4fb07ababf30/Paper/p1780
+  volume: '6'
+- id: Li2016b
+  author:
+  - family: Li
+    given: Fay-Wei
+  - family: Kuo
+    given: Li-Yaung
+  - family: Pryer
+    given: Kathleen M.
+  - family: Rothfels
+    given: Carl J.
+  container-title: Genome biology and evolution
+  DOI: 10.1093/gbe/evw167
+  ISSN: '17596653'
+  issue: '8'
+  issued:
+  - year: 2016
+  page: 2452-2458
+  PMID: '27401175'
+  title: Genes translocated into the plastid inverted repeat show decelerated substitution
+    rates and elevated GC content
+  type: article-journal
+  volume: '8'
+- id: Newmaster2006
+  author:
+  - family: Newmaster
+    given: S
+  - family: Fazekas
+    given: A
+  - family: Ragupathy
+    given: S
+  container-title: Canadian Journal of Botany
+  ISSN: 1480-3305
+  issued:
+  - year: 2006
+  page: 335-341
+  title: 'DNA barcoding in land plants: evaluation of rbcL in a multigene tiered approach'
+  type: article-journal
+  URL: papers://ebd7d3df-d8f1-4be8-bcf7-4fb07ababf30/Paper/p408
+  volume: '84'
+- id: Nitta2009
+  author:
+  - family: Nitta
+    given: Joel H.
+  - family: Epps
+    given: M J
+  container-title: Brittonia
+  DOI: 10.1007/s12228-009-9097-5
+  issue: '4'
+  issued:
+  - year: 2009
+    month: 12
+    day: 1
+  page: 392-397
+  title: Hemi-epiphytism in <span class="nocase">*Vandenboschia collariata*</span>
+    (hymenophyllaceae)
+  type: article-journal
+  URL: https://link.springer.com/article/10.1007%2Fs12228-009-9097-5
+  volume: '61'
+- id: Nitta2017
+  author:
+  - family: Nitta
+    given: Joel H.
+  - family: Meyer
+    given: Jean-Yves
+  - family: Taputuarai
+    given: Ravahere
+  - family: Davis
+    given: Charles C
+  container-title: Ecological Monographs
+  DOI: 10.1002/ecm.1246
+  ISSN: 00129615
+  issue: '2'
+  issued:
+  - year: 2017
+    month: 5
+    day: 2
+  page: 278-296
+  title: 'Life cycle matters: DNA barcoding reveals contrasting community structure
+    between fern sporophytes and gametophytes'
+  type: article-journal
+  URL: http://doi.wiley.com/10.1002/ecm.1246
+  volume: '87'
+- id: Nitta2020
+  accessed:
+  - year: 2020
+    month: 4
+    day: 28
+  author:
+  - family: Nitta
+    given: Joel H.
+  - family: Watkins
+    given: James E.
+  - family: Davis
+    given: Charles C.
+  container-title: New Phytologist
+  container-title-short: New Phytol
+  DOI: 10.1111/nph.16607
+  ISSN: 0028646X
+  issue: '6'
+  issued:
+  - year: 2020
+    month: 4
+    day: 14
+  language: en
+  page: 1885-1899
+  source: DOI.org (Crossref)
+  title: 'Life in the canopy: Community trait assessments reveal substantial functional
+    diversity among fern epiphytes'
+  title-short: Life in the canopy
+  type: article-journal
+  URL: http://doi.wiley.com/10.1111/nph.16607
+  volume: '227'
+- id: Nitta2020c
+  author:
+  - family: Nitta
+    given: Joel H
+  - family: Ebihara
+    given: Atsushi
+  - family: Smith
+    given: Alan R
+  container-title: PLOS ONE
+  DOI: 10.1371/journal.pone.0241231
+  issue: '11'
+  issued:
+  - year: 2020
+    month: 11
+    day: 18
+  language: en
+  page: e0241231
+  source: Zotero
+  title: A taxonomic and molecular survey of the pteridophytes of the Nectandra Cloud
+    Forest Reserve, Costa Rica
+  type: article-journal
+  volume: '15'
+- id: Nitta2021
+  accessed:
+  - year: 2021
+    month: 6
+    day: 5
+  author:
+  - family: Nitta
+    given: Joel H.
+  - family: Watkins
+    given: James E.
+  - family: Holbrook
+    given: N. Michele
+  - family: Wang
+    given: Tristan W.
+  - family: Davis
+    given: Charles C.
+  DOI: 10.1101/2021.03.12.435213
+  genre: preprint
+  issued:
+  - year: 2021
+    month: 3
+    day: 14
+  language: en
+  publisher: Ecology
+  source: DOI.org (Crossref)
+  title: Ecophysiological differentiation between life stages in filmy ferns (Hymenophyllaceae)
+  type: report
+  URL: http://biorxiv.org/lookup/doi/10.1101/2021.03.12.435213
+- id: Park2020
+  accessed:
+  - year: 2020
+    month: 5
+    day: 11
+  author:
+  - family: Park
+    given: Daniel S.
+  - family: Feng
+    given: Xiao
+  - family: Maitner
+    given: Brian S.
+  - family: Ernst
+    given: Kacey C.
+  - family: Enquist
+    given: Brian J.
+  container-title: Proceedings of the National Academy of Sciences
+  container-title-short: Proc Natl Acad Sci USA
+  DOI: 10/ggvnhd
+  ISSN: 0027-8424, 1091-6490
+  issued:
+  - year: 2020
+    month: 5
+    day: 4
+  language: en
+  page: '201918100'
+  source: DOI.org (Crossref)
+  title: Darwin’s naturalization conundrum can be explained by spatial scale
+  type: article-journal
+  URL: http://www.pnas.org/lookup/doi/10.1073/pnas.1918100117
+- id: Park2020
+  accessed:
+  - year: 2020
+    month: 7
+    day: 15
+  author:
+  - family: Park
+    given: Sang Hee
+  - family: Kim
+    given: Jung Sung
+  - family: Kim
+    given: Hyoung Tae
+  container-title: Ecology and Evolution
+  container-title-short: Ecol Evol
+  DOI: 10/gg4vzq
+  ISSN: 2045-7758, 2045-7758
+  issued:
+  - year: 2020
+    month: 7
+    day: 7
+  language: en
+  page: ece3.6510
+  source: DOI.org (Crossref)
+  title: Study of the independent gametophytes found on Jeju Island in South Korea
+    and the first record of the obligate independent gametophyte of *Antrophyum obovatum*
+    Baker
+  type: article-journal
+  URL: https://onlinelibrary.wiley.com/doi/abs/10.1002/ece3.6510
+- id: Park2021
+  accessed:
+  - year: 2021
+    month: 6
+    day: 5
+  author:
+  - family: Park
+    given: Sang Hee
+  - family: Kim
+    given: Jung Sung
+  - family: Kim
+    given: Hyoung Tae
+  container-title: Plants
+  container-title-short: Plants
+  DOI: 10/gkd2ff
+  ISSN: 2223-7747
+  issue: '1'
+  issued:
+  - year: 2021
+    month: 1
+    day: 18
+  language: en
+  page: '170'
+  source: DOI.org (Crossref)
+  title: 'A small number of gametophytes with gametangia and stunted sporophytes of
+    *Antrophyum obovatum* Baker (Pteridaceae): The suppression of functional sporophyte
+    production by prezygotic and postzygotic sterility'
+  title-short: A Small Number of Gametophytes with Gametangia and Stunted Sporophytes
+    of Antrophyum obovatum Baker (Pteridaceae)
+  type: article-journal
+  URL: https://www.mdpi.com/2223-7747/10/1/170
+  volume: '10'
+- id: Pinson2016
+  author:
+  - family: Pinson
+    given: Jerald B
+  - family: Schuettpelz
+    given: Eric
+  container-title: American Journal of Botany
+  DOI: 10.3732/ajb.1500522
+  ISSN: 0002-9122
+  issue: '4'
+  issued:
+  - year: 2016
+  page: 668-676
+  title: Unraveling the origin of the Appalachian gametophyte, <span class="nocase">*Vittaria
+    appalachiana*</span>
+  type: article-journal
+  volume: '103'
+- id: Pinson2016a
+  author:
+  - family: Pinson
+    given: Jerald B
+  - family: Chambers
+    given: Sally M.
+  - family: Nitta
+    given: Joel H.
+  - family: Kuo
+    given: Li-Yaung
+  - family: Sessa
+    given: Emily B
+  container-title: International Journal of Plant Sciences
+  DOI: 10.1086/688773
+  ISSN: 1058-5893
+  issue: '1'
+  issued:
+  - year: 2017
+    month: 1
+    day: 1
+  page: 1-18
+  title: 'The separation of generations: Biology and biogeography of long-lived sporophyteless
+    fern gametophytes'
+  type: article-journal
+  URL: http://www.journals.uchicago.edu/doi/10.1086/688773
+  volume: '178'
+- id: Pinson2017
+  accessed:
+  - year: 2021
+    month: 6
+    day: 5
+  author:
+  - family: Pinson
+    given: Jerald B.
+  - family: Chambers
+    given: Sally M.
+  - family: Sessa
+    given: Emily B.
+  container-title: American Fern Journal
+  container-title-short: American Fern Journal
+  DOI: 10/gcrw5d
+  ISSN: 0002-8444, 1938-422X
+  issue: '4'
+  issued:
+  - year: 2017
+    month: 12
+  language: en
+  page: 257-264
+  source: DOI.org (Crossref)
+  title: '*Vittaria graminifolia* (Pteridaceae) and *Didymoglossum petersii* (Hymenophyllaceae)
+    in Broxton Rocks, GA'
+  type: article-journal
+  URL: http://www.bioone.org/doi/10.1640/0002-8444-107.4.257
+  volume: '107'
+- id: Schneider2006a
+  author:
+  - family: Schneider
+    given: Harald
+  - family: Schuettpelz
+    given: Eric
+  container-title: Molecular Ecology Notes
+  DOI: 10.1111/j.1471-8286.2006.01424.x
+  issued:
+  - year: 2006
+  page: 989-991
+  title: Identifying fern gametophytes using DNA sequences
+  type: article-journal
+  URL: papers://ebd7d3df-d8f1-4be8-bcf7-4fb07ababf30/Paper/p464
+  volume: '6'
+- id: Taberlet2007
+  author:
+  - family: Taberlet
+    given: P
+  - family: Eric
+    given: C
+  - family: Francios
+    given: P
+  - family: Ludovic
+    given: G
+  - family: Christian
+    given: M
+  - family: Alice
+    given: V
+  - family: Thierry
+    given: V
+  - family: Gerard
+    given: C
+  - family: Christian
+    given: B
+  - family: Eske
+    given: W
+  container-title: Nucleic Acids Research
+  issue: '3'
+  issued:
+  - year: 2007
+  page: e14
+  title: Power and limitations of the chloroplast trnL (UAA) intron for plant DNA
+    barcoding
+  type: article-journal
+  URL: papers://ebd7d3df-d8f1-4be8-bcf7-4fb07ababf30/Paper/p428
+  volume: '35'
