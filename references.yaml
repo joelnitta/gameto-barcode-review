@@ -1,4 +1,41 @@
 references:
+- id: Altschul1997
+  author:
+  - family: Altschul
+    given: Stephen F.
+  - family: Madden
+    given: Thomas L.
+  - family: Schäffer
+    given: Alejandro A.
+  - family: Zhang
+    given: Jinghui
+  - family: Zhang
+    given: Zheng
+  - family: Miller
+    given: Webb
+  - family: Lipman
+    given: David J.
+  container-title: Nucleic Acids Research
+  DOI: 10.1093/nar/25.17.3389
+  issued:
+  - year: 1997
+  page: 3389-3402
+  title: 'Gapped BLAST and PSI-BLAST: a new generation of protein database search
+    programs.'
+  type: article-journal
+  URL: papers://ebd7d3df-d8f1-4be8-bcf7-4fb07ababf30/Paper/p449
+  volume: '25'
+- id: Bower1923
+  author:
+  - family: Bower
+    given: Frederick
+  event-place: Cambridge
+  issued:
+  - year: 1923
+  publisher: University Press
+  publisher-place: Cambridge
+  title: The Ferns. Vol. III
+  type: book
 - id: Chambers2016
   author:
   - family: Chambers
@@ -335,6 +372,24 @@ references:
   type: article-journal
   URL: papers://ebd7d3df-d8f1-4be8-bcf7-4fb07ababf30/Paper/p1659
   volume: '155'
+- id: Gastony1992
+  author:
+  - family: Gastony
+    given: Gerald J.
+  - family: Yatskievych
+    given: George
+  container-title: American Journal of Botany
+  DOI: 10.1002/j.1537-2197.1992.tb14613.x
+  ISSN: 1537-2197
+  issue: '6'
+  issued:
+  - year: 1992
+  page: 716-722
+  title: Maternal inheritance of the chloroplast and mitochondrial genomes in cheilanthoid
+    ferns
+  type: article-journal
+  URL: papers://ebd7d3df-d8f1-4be8-bcf7-4fb07ababf30/Paper/p1298
+  volume: '79'
 - id: Gostel2020
   accessed:
   - year: 2021
@@ -571,6 +626,23 @@ references:
   type: article-journal
   URL: http://www.pnas.org/cgi/doi/10.1073/pnas.1116812108
   volume: '108'
+- id: Holloway1930
+  author:
+  - family: Holloway
+    given: J E
+  container-title: Annals of Botany
+  DOI: 10.1093/oxfordjournals.aob.a090218
+  ISSN: 1095-8290
+  issue: '2'
+  issued:
+  - year: 1930
+  page: 269-284
+  title: The experimental cultivation of the gametophytes of <span class="nocase">*Hymenophyllum
+    pulcherrimum*</span>, Col. and of <span class="nocase">*Trichomanes reniforme*</span>,
+    Forst. f.
+  type: article-journal
+  URL: papers://ebd7d3df-d8f1-4be8-bcf7-4fb07ababf30/Paper/p2270
+  volume: '44'
 - id: Kress2005
   author:
   - family: Kress
@@ -661,6 +733,47 @@ references:
     ferns (Pteridaceae, Polypodiales) in East Asian subtropics'
   type: article-journal
   volume: '130'
+- id: Kuo2019a
+  accessed:
+  - year: 2021
+    month: 7
+    day: 1
+  author:
+  - family: Kuo
+    given: Li-Yaung
+  - family: Li
+    given: Fay-Wei
+  container-title: American Fern Journal
+  container-title-short: American Fern Journal
+  DOI: 10/gkzrz7
+  ISSN: 0002-8444
+  issue: '3'
+  issued:
+  - year: 2019
+    month: 9
+    day: 17
+  page: '212'
+  source: DOI.org (Crossref)
+  title: A Roadmap for Fern Genome Sequencing
+  type: article-journal
+  URL: https://bioone.org/journals/american-fern-journal/volume-109/issue-3/0002-8444-109.3.212/A-Roadmap-for-Fern-Genome-Sequencing/10.1640/0002-8444-109.3.212.full
+  volume: '109'
+- id: Lagomarsino2012
+  author:
+  - family: Lagomarsino
+    given: L P
+  - family: Grusz
+    given: Amanda L.
+  - family: Moran
+    given: R C
+  container-title: Brittonia
+  issued:
+  - year: 2012
+    month: 1
+  title: Primary hemiepiphytism and gametophyte morphology in Elaphoglossum amygdalifolium
+    (Dryopteridaceae)
+  type: article-journal
+  URL: http://www.springerlink.com/index/3342R140726G5217.pdf papers://ebd7d3df-d8f1-4be8-bcf7-4fb07ababf30/Paper/p1942
 - id: Lahaye2008
   author:
   - family: Lahaye
@@ -820,6 +933,77 @@ references:
     rates and elevated GC content
   type: article-journal
   volume: '8'
+- id: Li2018c
+  accessed:
+  - year: 2021
+    month: 7
+    day: 1
+  author:
+  - family: Li
+    given: Fay-Wei
+  - family: Harkess
+    given: Alex
+  container-title: Applications in Plant Sciences
+  container-title-short: Appl Plant Sci
+  DOI: 10/gfx7sg
+  ISSN: '21680450'
+  issue: '3'
+  issued:
+  - year: 2018
+    month: 3
+  language: en
+  page: e1030
+  source: DOI.org (Crossref)
+  title: A guide to sequence your favorite plant genomes
+  type: article-journal
+  URL: http://doi.wiley.com/10.1002/aps3.1030
+  volume: '6'
+- id: Mafune2020
+  accessed:
+  - year: 2021
+    month: 6
+    day: 13
+  author:
+  - family: Mafune
+    given: Korena K
+  - family: Godfrey
+    given: Bruce J
+  - family: Vogt
+    given: Daniel J
+  - family: Vogt
+    given: Kristiina A
+  container-title: BioTechniques
+  container-title-short: BioTechniques
+  DOI: 10/gkmqsm
+  ISSN: 0736-6205
+  issue: '2'
+  issued:
+  - year: 2020
+    month: 2
+    day: 1
+  page: 72-78
+  publisher: Future Science
+  source: future-science.com (Atypon)
+  title: A rapid approach to profiling diverse fungal communities using the MinION™
+    nanopore sequencer
+  type: article-journal
+  URL: https://www.future-science.com/doi/full/10.2144/btn-2019-0072
+  volume: '68'
+- id: Nayar1971
+  author:
+  - family: Nayar
+    given: B. K.
+  - family: Kaur
+    given: S
+  container-title: The Botanical Review
+  issue: '3'
+  issued:
+  - year: 1971
+  page: 295-396
+  title: Gametophytes of homosporous ferns
+  type: article-journal
+  URL: papers://ebd7d3df-d8f1-4be8-bcf7-4fb07ababf30/Paper/p1571
+  volume: '37'
 - id: Newmaster2006
   author:
   - family: Newmaster
@@ -960,6 +1144,19 @@ references:
   title: Ecophysiological differentiation between life stages in filmy ferns (Hymenophyllaceae)
   type: report
   URL: http://biorxiv.org/lookup/doi/10.1101/2021.03.12.435213
+- id: Page2002
+  author:
+  - family: Page
+    given: Christopher
+  container-title: Review of Palaeobotany and Palynology
+  issue: 1-2
+  issued:
+  - year: 2002
+  page: 1-33
+  title: 'Ecological strategies in fern evolution: A neopteridological overview'
+  type: article-journal
+  URL: papers://ebd7d3df-d8f1-4be8-bcf7-4fb07ababf30/Paper/p590
+  volume: '119'
 - id: Park2020
   accessed:
   - year: 2020
@@ -1050,6 +1247,41 @@ references:
   type: article-journal
   URL: https://www.mdpi.com/2223-7747/10/1/170
   volume: '10'
+- id: Parker2017
+  accessed:
+  - year: 2021
+    month: 6
+    day: 13
+  author:
+  - family: Parker
+    given: Joe
+  - family: Helmstetter
+    given: Andrew J.
+  - family: Devey
+    given: Dion
+  - family: Wilkinson
+    given: Tim
+  - family: Papadopulos
+    given: Alexander S. T.
+  container-title: Scientific Reports
+  container-title-short: Sci Rep
+  DOI: 10/gbtv3n
+  ISSN: 2045-2322
+  issue: '1'
+  issued:
+  - year: 2017
+    month: 8
+    day: 21
+  language: en
+  number: '1'
+  page: '8345'
+  publisher: Nature Publishing Group
+  source: www.nature.com
+  title: Field-based species identification of closely-related plants using real-time
+    nanopore sequencing
+  type: article-journal
+  URL: https://www.nature.com/articles/s41598-017-08461-5
+  volume: '7'
 - id: Pinson2016
   author:
   - family: Pinson
@@ -1121,6 +1353,63 @@ references:
   type: article-journal
   URL: http://www.bioone.org/doi/10.1640/0002-8444-107.4.257
   volume: '107'
+- id: Pomerantz2018
+  accessed:
+  - year: 2021
+    month: 7
+    day: 1
+  author:
+  - family: Pomerantz
+    given: Aaron
+  - family: Peñafiel
+    given: Nicolás
+  - family: Arteaga
+    given: Alejandro
+  - family: Bustamante
+    given: Lucas
+  - family: Pichardo
+    given: Frank
+  - family: Coloma
+    given: Luis A
+  - family: Barrio-Amorós
+    given: César L
+  - family: Salazar-Valenzuela
+    given: David
+  - family: Prost
+    given: Stefan
+  container-title: GigaScience
+  DOI: 10/gc84n7
+  ISSN: 2047-217X
+  issue: '4'
+  issued:
+  - year: 2018
+    month: 4
+    day: 1
+  language: en
+  source: DOI.org (Crossref)
+  title: 'Real-time DNA barcoding in a rainforest using nanopore sequencing: opportunities
+    for rapid biodiversity assessments and local capacity building'
+  title-short: Real-time DNA barcoding in a rainforest using nanopore sequencing
+  type: article-journal
+  URL: https://academic.oup.com/gigascience/article/doi/10.1093/gigascience/giy033/4958980
+  volume: '7'
+- id: Ranker2002
+  author:
+  - family: Ranker
+    given: Tom A
+  - family: Houston
+    given: H
+  container-title: American Fern Journal
+  ISSN: 1938-422X
+  issue: '2'
+  issued:
+  - year: 2002
+  page: 112-118
+  title: Is gametophyte sexuality in the laboratory a good predictor of sexuality
+    in nature?
+  type: article-journal
+  URL: papers://ebd7d3df-d8f1-4be8-bcf7-4fb07ababf30/Paper/p1587
+  volume: '92'
 - id: Schneider2006a
   author:
   - family: Schneider
@@ -1136,6 +1425,63 @@ references:
   type: article-journal
   URL: papers://ebd7d3df-d8f1-4be8-bcf7-4fb07ababf30/Paper/p464
   volume: '6'
+- id: Srivathsan2018
+  accessed:
+  - year: 2021
+    month: 7
+    day: 6
+  author:
+  - family: Srivathsan
+    given: Amrita
+  - family: Baloğlu
+    given: Bilgenur
+  - family: Wang
+    given: Wendy
+  - family: Tan
+    given: Wei X.
+  - family: Bertrand
+    given: Denis
+  - family: Ng
+    given: Amanda H. Q.
+  - family: Boey
+    given: Esther J. H.
+  - family: Koh
+    given: Jayce J. Y.
+  - family: Nagarajan
+    given: Niranjan
+  - family: Meier
+    given: Rudolf
+  container-title: Molecular Ecology Resources
+  container-title-short: Mol Ecol Resour
+  DOI: 10/gdm854
+  ISSN: 1755098X
+  issue: '5'
+  issued:
+  - year: 2018
+    month: 9
+  language: en
+  page: 1035-1049
+  source: DOI.org (Crossref)
+  title: A MinION™-based pipeline for fast and cost-effective DNA barcoding
+  type: article-journal
+  URL: https://onlinelibrary.wiley.com/doi/10.1111/1755-0998.12890
+  volume: '18'
+- id: Stevens2015
+  author:
+  - family: Stevens
+    given: Sally M.
+  - family: Emery
+    given: Nancy C.
+  container-title: Diversity and Distributions
+  DOI: 10.1111/ddi.12323
+  ISSN: '13669516'
+  issued:
+  - year: 2015
+  page: n/a-n/a
+  title: Dispersal limitation and population differentiation in performance beyond
+    a northern range limit in an asexually reproducing fern
+  type: article-journal
+  URL: http://doi.wiley.com/10.1111/ddi.12323
 - id: Taberlet2007
   author:
   - family: Taberlet
@@ -1168,3 +1514,86 @@ references:
   type: article-journal
   URL: papers://ebd7d3df-d8f1-4be8-bcf7-4fb07ababf30/Paper/p428
   volume: '35'
+- id: Testo2014a
+  author:
+  - family: Testo
+    given: Weston L.
+  - family: Sundue
+    given: Michael A
+  container-title: International Journal of Plant Sciences
+  DOI: 10.1086/675934
+  ISSN: '10585893'
+  issue: '5'
+  issued:
+  - year: 2014
+    month: 6
+  page: 526-536
+  title: Primary Hemiepiphytism in Colysis ampla (Polypodiaceae) provides new insight
+    into the evolution of growth habit in ferns
+  type: article-journal
+  URL: http://www.jstor.org/stable/info/10.1086/675934
+  volume: '175'
+- id: Vogel1998
+  author:
+  - family: Vogel
+    given: Johannes C
+  - family: Russell
+    given: S J
+  - family: Rumsey
+    given: Frederick J
+  - family: Barrett
+    given: J A
+  - family: Gibby
+    given: Mary
+  container-title: Botanica Acta
+  DOI: 10.1111/j.1438-8677.1998.tb00704.x
+  issue: '3'
+  issued:
+  - year: 1998
+  page: 247-249
+  title: Evidence for maternal transmission of chloroplast DNA in the genus *Asplenium*
+    (Aspleniaceae, Pteridophyta)
+  type: article-journal
+  URL: papers://ebd7d3df-d8f1-4be8-bcf7-4fb07ababf30/Paper/p1299
+  volume: '111'
+- id: Watkins2019
+  accessed:
+  - year: 2021
+    month: 6
+    day: 6
+  author:
+  - family: Watkins
+    given: James E.
+  - family: Moran
+    given: Robbin C.
+  container-title: International Journal of Plant Sciences
+  DOI: 10/gkfj7f
+  ISSN: 1058-5893
+  issue: '9'
+  issued:
+  - year: 2019
+    month: 9
+    day: 25
+  page: 1004-1015
+  publisher: The University of Chicago Press
+  source: journals.uchicago.edu (Atypon)
+  title: Gametophytes of the Fern Genera Dracoglossum and Lomariopsis (Lomariopsidaceae)
+    and their Phylogenetic Significance
+  type: article-journal
+  URL: https://www.journals.uchicago.edu/doi/full/10.1086/705587
+  volume: '180'
+- id: Watts2019
+  author:
+  - family: Watts
+    given: Jacob L
+  - family: Moran
+    given: Robbin C
+  - family: Jr
+    given: James E Watkins
+  DOI: 10.1093/aob/mcz124
+  issued:
+  - year: 2019
+  page: 1-7
+  title: '*Hymenasplenium volubile*: Documentation of its gametophytes and the first
+    record of a hemiepiphyte in the Aspleniaceae'
+  type: article-journal
