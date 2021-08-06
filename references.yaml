@@ -211,6 +211,44 @@ references:
   type: article-journal
   URL: papers://ebd7d3df-d8f1-4be8-bcf7-4fb07ababf30/Paper/p2251
   volume: '111'
+- id: Chen2019b
+  accessed:
+  - year: 2021
+    month: 8
+    day: 4
+  author:
+  - family: Chen
+    given: Cheng-Wei
+  - family: Lindsay
+    given: Stuart
+  - family: Yong
+    given: Kien Thai
+  - family: Mustapeng
+    given: Andi Maryani A.
+  - family: Amoroso
+    given: Victor B.
+  - family: Dang
+    given: Viet Dai
+  - family: Huang
+    given: Yao-Moan
+  container-title: Systematic Botany
+  container-title-short: Systematic Botany
+  DOI: 10/gmd4h2
+  ISSN: 0363-6445
+  issue: '3'
+  issued:
+  - year: 2019
+    month: 9
+    day: 6
+  language: en
+  page: 483-493
+  source: DOI.org (Crossref)
+  title: 'Clarification of two poorly known vittarioid ferns (Pteridaceae): *Haplopteris
+    angustissima* and *H. capillaris*'
+  title-short: Clarification of Two Poorly Known Vittarioid Ferns (Pteridaceae)
+  type: article-journal
+  URL: https://www.ingentaconnect.com/content/10.1600/036364419X15620113920545
+  volume: '44'
 - id: DeGroot2011a
   author:
   - family: Groot
@@ -238,6 +276,33 @@ references:
   type: article-journal
   URL: papers://ebd7d3df-d8f1-4be8-bcf7-4fb07ababf30/Paper/p1605
   volume: '6'
+- id: DErcole2021
+  accessed:
+  - year: 2021
+    month: 8
+    day: 6
+  author:
+  - family: D’Ercole
+    given: Jacopo
+  - family: Prosser
+    given: Sean W.J.
+  - family: Hebert
+    given: Paul D.N.
+  container-title: PeerJ
+  DOI: 10/gmfdw4
+  ISSN: 2167-8359
+  issued:
+  - year: 2021
+    month: 1
+    day: 14
+  language: en
+  page: e10420
+  source: DOI.org (Crossref)
+  title: A SMRT approach for targeted amplicon sequencing of museum specimens (Lepidoptera)—patterns
+    of nucleotide misincorporation
+  type: article-journal
+  URL: https://peerj.com/articles/10420
+  volume: '9'
 - id: Duffy2015
   author:
   - family: Duffy
@@ -583,6 +648,50 @@ references:
   type: article-journal
   URL: papers://ebd7d3df-d8f1-4be8-bcf7-4fb07ababf30/Paper/p431
   volume: '270'
+- id: Hebert2018
+  accessed:
+  - year: 2021
+    month: 8
+    day: 6
+  author:
+  - family: Hebert
+    given: Paul D. N.
+  - family: Braukmann
+    given: Thomas W. A.
+  - family: Prosser
+    given: Sean W. J.
+  - family: Ratnasingham
+    given: Sujeevan
+  - family: deWaard
+    given: Jeremy R.
+  - family: Ivanova
+    given: Natalia V.
+  - family: Janzen
+    given: Daniel H.
+  - family: Hallwachs
+    given: Winnie
+  - family: Naik
+    given: Suresh
+  - family: Sones
+    given: Jayme E.
+  - family: Zakharov
+    given: Evgeny V.
+  container-title: BMC Genomics
+  container-title-short: BMC Genomics
+  DOI: 10/gdvpf7
+  ISSN: 1471-2164
+  issue: '1'
+  issued:
+  - year: 2018
+    month: 12
+  language: en
+  page: '219'
+  source: DOI.org (Crossref)
+  title: 'A Sequel to Sanger: amplicon sequencing that scales'
+  title-short: A Sequel to Sanger
+  type: article-journal
+  URL: https://bmcgenomics.biomedcentral.com/articles/10.1186/s12864-018-4611-3
+  volume: '19'
 - id: Hollingsworth2011
   author:
   - family: Hollingsworth
@@ -681,6 +790,27 @@ references:
   type: article-journal
   URL: papers://ebd7d3df-d8f1-4be8-bcf7-4fb07ababf30/Paper/p444
   volume: '2'
+- id: Kuo2011
+  author:
+  - family: Kuo
+    given: Li-Yaung
+  - family: Li
+    given: Fay-Wei
+  - family: Chiou
+    given: Wen-Liang
+  - family: Wang
+    given: Chun-Neng
+  container-title: Molecular Phylogenetics and Evolution
+  ISSN: '10557903'
+  issue: '3'
+  issued:
+  - year: 2011
+    month: 6
+  page: 556-566
+  title: First insights into fern *matK* phylogeny
+  type: article-journal
+  URL: http://dx.doi.org/10.1016/j.ympev.2011.03.010 papers://ebd7d3df-d8f1-4be8-bcf7-4fb07ababf30/Paper/p1708
+  volume: '59'
 - id: Kuo2014a
   author:
   - family: Kuo
@@ -733,6 +863,33 @@ references:
     ferns (Pteridaceae, Polypodiales) in East Asian subtropics'
   type: article-journal
   volume: '130'
+- id: Kuo2018a
+  author:
+  - family: Kuo
+    given: Li-Yaung
+  - family: Tang
+    given: Te-Yen
+  - family: Li
+    given: Fay-Wei
+  - family: Su
+    given: Huei-Jiun
+  - family: Chiou
+    given: Wen-Liang
+  - family: Huang
+    given: Yao-Moan
+  - family: Wang
+    given: Chun-Neng
+  container-title: Frontiers in Plant Science
+  DOI: 10.3389/fpls.2018.00486
+  ISSN: 1664462X
+  issue: April
+  issued:
+  - year: 2018
+  page: '486'
+  title: Organelle genome inheritance in *Deparia* ferns (Athyriaceae, Aspleniineae,
+    Polypodiales)
+  type: article-journal
+  volume: '9'
 - id: Kuo2019a
   accessed:
   - year: 2021
@@ -767,13 +924,16 @@ references:
   - family: Moran
     given: R C
   container-title: Brittonia
+  issue: '2'
   issued:
   - year: 2012
     month: 1
+  page: 226-235
   title: Primary hemiepiphytism and gametophyte morphology in Elaphoglossum amygdalifolium
     (Dryopteridaceae)
   type: article-journal
   URL: http://www.springerlink.com/index/3342R140726G5217.pdf papers://ebd7d3df-d8f1-4be8-bcf7-4fb07ababf30/Paper/p1942
+  volume: '64'
 - id: Lahaye2008
   author:
   - family: Lahaye
@@ -1119,8 +1279,8 @@ references:
 - id: Nitta2021
   accessed:
   - year: 2021
-    month: 6
-    day: 5
+    month: 8
+    day: 3
   author:
   - family: Nitta
     given: Joel H.
@@ -1132,18 +1292,19 @@ references:
     given: Tristan W.
   - family: Davis
     given: Charles C.
-  DOI: 10.1101/2021.03.12.435213
-  genre: preprint
+  container-title: Journal of Plant Research
+  container-title-short: J Plant Res
+  DOI: 10/gmdh4p
+  ISSN: 0918-9440, 1618-0860
   issued:
   - year: 2021
-    month: 3
-    day: 14
+    month: 6
+    day: 12
   language: en
-  publisher: Ecology
   source: DOI.org (Crossref)
   title: Ecophysiological differentiation between life stages in filmy ferns (Hymenophyllaceae)
-  type: report
-  URL: http://biorxiv.org/lookup/doi/10.1101/2021.03.12.435213
+  type: article-journal
+  URL: https://link.springer.com/10.1007/s10265-021-01318-z
 - id: Page2002
   author:
   - family: Page
@@ -1410,6 +1571,25 @@ references:
   type: article-journal
   URL: papers://ebd7d3df-d8f1-4be8-bcf7-4fb07ababf30/Paper/p1587
   volume: '92'
+- id: Rothfels2017
+  author:
+  - family: Rothfels
+    given: Carl J.
+  - family: Pryer
+    given: Kathleen M
+  - family: Li
+    given: Fay-Wei
+  container-title: New Phytologist
+  DOI: 10.1002/elan.
+  ISSN: 1543-3080
+  issued:
+  - year: 2017
+  page: 413-429
+  PMID: '26285040'
+  title: 'Next-generation polyploid phylogenetics: rapid resolution of hybrid polyploid
+    complexes using PacBio single-molecule sequencing.'
+  type: article-journal
+  volume: '213'
 - id: Schneider2006a
   author:
   - family: Schneider
@@ -1477,11 +1657,12 @@ references:
   ISSN: '13669516'
   issued:
   - year: 2015
-  page: n/a-n/a
+  page: 1242-1253
   title: Dispersal limitation and population differentiation in performance beyond
     a northern range limit in an asexually reproducing fern
   type: article-journal
   URL: http://doi.wiley.com/10.1111/ddi.12323
+  volume: '21'
 - id: Taberlet2007
   author:
   - family: Taberlet
@@ -1593,7 +1774,8 @@ references:
   DOI: 10.1093/aob/mcz124
   issued:
   - year: 2019
-  page: 1-7
+  page: 829-835
   title: '*Hymenasplenium volubile*: Documentation of its gametophytes and the first
     record of a hemiepiphyte in the Aspleniaceae'
   type: article-journal
+  volume: '124'
