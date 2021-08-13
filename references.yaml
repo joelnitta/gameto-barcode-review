@@ -49,27 +49,10 @@ references:
   - year: 2016
   page: 1-13
   title: Population differentiation and countergradient variation throughout the geographic
-    range in the fern gametophyte Vittaria appalachiana
+    range in the fern gametophyte *Vittaria appalachiana*
   type: article-journal
   URL: http://www.amjbot.org/cgi/doi/10.3732/ajb.1500077
   volume: '103'
-- id: Chambers2017
-  author:
-  - family: Chambers
-    given: Sally M.
-  - family: Watkins Jr.
-    given: James E
-  - family: Sessa
-    given: Emily B
-  DOI: 10.3732/ajb.1600279
-  issue: '4'
-  issued:
-  - year: 2017
-  page: 1-10
-  title: Differences in dehydration tolerance among populations of a gametophyte-only
-    fern
-  type: article-journal
-  volume: '104'
 - id: Chase2005
   author:
   - family: Chase
@@ -623,7 +606,7 @@ references:
   issued:
   - year: 2003
   page: S96-S99
-  title: 'Barcoding animal life: cytochrome c oxidase subunit 1 divergences among
+  title: 'Barcoding animal life: Cytochrome c oxidase subunit 1 divergences among
     closely related species'
   type: article-journal
   URL: papers://ebd7d3df-d8f1-4be8-bcf7-4fb07ababf30/Paper/p442
@@ -811,7 +794,7 @@ references:
   type: article-journal
   URL: http://dx.doi.org/10.1016/j.ympev.2011.03.010 papers://ebd7d3df-d8f1-4be8-bcf7-4fb07ababf30/Paper/p1708
   volume: '59'
-- id: Kuo2014a
+- id: Kuo2014
   author:
   - family: Kuo
     given: Li-Yaung
@@ -827,13 +810,13 @@ references:
     given: C.-N.
   - family: Chiou
     given: Wen-Liang
-  event: The 6th Asian Fern Symposium
+  container-title: The 6th Asian Fern Symposium
   event-place: Bali, Indonesia
   issued:
   - year: 2014
   publisher-place: Bali, Indonesia
-  title: Cryptic species  diversity  on  field  fern  gametophyte  flora  in  Fushan  (Taiwan)
-  type: speech
+  title: Cryptic species diversity on field fern gametophyte flora in Fushan (Taiwan)
+  type: paper-conference
 - id: Kuo2017b
   author:
   - family: Kuo
@@ -911,7 +894,7 @@ references:
     day: 17
   page: '212'
   source: DOI.org (Crossref)
-  title: A Roadmap for Fern Genome Sequencing
+  title: A roadmap for fern genome sequencing
   type: article-journal
   URL: https://bioone.org/journals/american-fern-journal/volume-109/issue-3/0002-8444-109.3.212/A-Roadmap-for-Fern-Genome-Sequencing/10.1640/0002-8444-109.3.212.full
   volume: '109'

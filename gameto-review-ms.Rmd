@@ -4,10 +4,23 @@ output:
     pandoc_args: [ "--csl", "american-journal-of-botany.csl"]
     toc: no
     reference_docx: american-journal-of-botany.docx
-bibliography: references.yaml
+bibliography:
+  - references.yaml
+  - references_other.yaml
+editor_options: 
+  chunk_output_type: console
 ---
-<br>
-<br>
+
+```{r setup, echo = FALSE, message = FALSE, warning = FALSE, results = "hide"}
+# Load packages
+library(tidyverse)
+library(taxize)
+library(glue)
+library(assertr)
+# Set knitr options
+knitr::opts_chunk$set(echo = FALSE, message = FALSE, warning = FALSE, results = "hide", cache = TRUE)
+```
+
 <br>
 
 *Nitta and Chambers---DNA barcoding of fern gametophytes*
@@ -136,12 +149,6 @@ The careful studies of @Kuo2017b and @Park2021, which included observations of g
 Furthermore, although @Kuo2017b could not confidently identify the obligate independent gametophyte population in Taiwan to species due to a lack of sufficiently similar reference sequences, @Chen2019b later sequenced additional sporophytes and confirmed the identity of the gametophytes as *Haplopteris capillaris* (Copel.) C. W. Chen, S. Linds. & K. T. Yong.
 This highlights the importance of the reference library in conducting DNA barcoding of fern gametophytes.
 
-<!-- * H. wrightii in Alaska [@Duffy2015]
-* Independent vittarioid gametophytes in S. Japan and Taiwan [@Kuo2017b]
-* Didymoglossum petersii in GA [@Pinson2017]
-* Vittarioid ferns on Jeju island [@Park2020; @Park2021]
-* P. makinoi, C. intricatum, H. wrightii in Korea [@Lee2020] -->
-
 **Scaling up: Community ecology of fern gametophytes**
 
 Beyond identifying individual populations of gametophytes, some DNA barcoding studies have sought to compare community-level diversity between gametophytes and sporophytes. 
@@ -164,13 +171,9 @@ This is in contradiction to the expectation that there should be at least as man
 They therefore used a reduced dataset only including species that had been observed at least once in each life stage across the elevational gradient to compare gametophyte and sporophyte community composition.
 This revealed that community structure does differ between fern sporophytes and gametophytes: sporophyte communities became increasingly phylogenetically clustered at high elevations, while gametophytes did not show any significant change in phylogenetic structure with elevation.
 
-Indeed, this expectation of greater species richness in the gametophyte phase was borne out by the study of @Kuo2014a, who carried out exhaustive sampling of gametophytes throughout one year at a single site in Taiwan. 
+Indeed, this expectation of greater species richness in the gametophyte phase was borne out by the study of @Kuo2014, who carried out exhaustive sampling of gametophytes throughout one year at a single site in Taiwan. 
 They did this by establishing six subplots side-by-side at a single site in Taiwan and exhaustively sampling the subplots once every two months, then comparing the observed gametophyte diversity with the diversity of sporophytes at the site. 
 This demonstrates that careful sampling is needed to accurately compare community-level diversity between fern sporophytes and gametophytes.
-
-<!-- * Community assembly in Tahiti [@Nitta2017]
-* Japan gameto survey [@Ebihara2013]
-* Taiwan gameto survey over year [@Kuo2014a] -->
 
 **Other ecological studies**
 
@@ -205,14 +208,9 @@ One of the most surprising results of this study was that the gametophytes of *C
 Rather, @Nitta2021 hypothesize that *C. apiifolia* gametophytes exploit small, well-protected microhabitats at the bases of rocks and trees to avoid desiccation and thus attain a broader geographic range than conspecific sporophytes.
 This points to the importance of microhabitat for understanding the distribution of fern gametophytes, which has also been supported by the finding of wide intraspecific variation in desiccation tolerance in vittarioid gametophytes mirroring variation in their environmental conditions [@Stevens2015; @Chambers2016; @Chambers2017].
 
-<!-- * Growth rates and comparison of niche between G & S [@Ebihara2019a]
-* Determining hemi-epiphyte status [@Nitta2009]
-* Comparison of desiccation tolerance between filmy G & S [@Nitta2021]
-* Community structure of epi vs. ter [@Nitta2020] -->
+**Advances in DNA sequencing technology**
 
-**Next-generation DNA barcoding**
-
-Next-generation DNA sequencing has not yet been applied to identification of fern gametophytes, to our knowledge.
+There have been no published studies applying next-generation DNA sequencing to identification of fern gametophytes, to our knowledge.
 Incorporating next-gen methods will offer two major benefits: the ability to generate much more data far more cheaply (in price per base) than Sanger sequencing, and the possibility to obtain DNA sequences while in the field.
 
 The rapid development of next-generation sequencing platforms and technologies has resulted in an ability to sequence millions of base pairs at a time. 
@@ -236,8 +234,7 @@ The remote nature of field work also complicates the feasibility of many studies
 A particularly exciting avenue for the future of DNA barcoding in ferns in the field involves the use of a relatively new portable sequencing system. 
 The MinIon Mk1B (Oxford Nanopore Technologies) is a powerful, portable sequencer that can successfully sequence entire communities [@Mafune2020], and generate long-read sequences [@Li2018c; @Kuo2019a]. 
 Recent studies have taken advantage of the portability of this instrument by taking it into the field to effectively conduct real-time DNA barcoding studies in both tropical and temperate communities [@Parker2017; @Pomerantz2018]. 
-Another study found that roughly 500 barcodes can be accurately identified within about two hours of sequencing time, with an identification success rate ranging from 99-100% after the implementation of their barcoding strategy and analytical pipeline [@Srivathsan2018]. 
-The MinIon is being actively investigated for a variety of molecular purposes revolving around ferns in a number of labs, including real-time barcoding in the field (Chambers, personal communication).
+Another study found that roughly 500 barcodes can be accurately identified within about two hours of sequencing time, with an identification success rate ranging from 99-100% after the implementation of their barcoding strategy and analytical pipeline [@Srivathsan2018].
 
 Although the MinIon sequencer is portable and powerful, DNA barcoding still requires the use of many lab instruments and reagents to extract DNA and amplify the targeted genomic region. 
 Simplification of the workflow would enable more rapid identification.
@@ -246,15 +243,10 @@ This technique, originally published by @Li2009, involves the application of PCR
 To determine the ideal protocol for amplification of the plastid *trnL-L-F* locus, the authors tested various chemical and mechanical methods to either increase PCR success or the lysis of cells. 
 Their results indicated that chemical and mechanical manipulation increased PCR success among most of the examined fern gametophytes. 
 They also found that amplifying each reaction twice (running a first PCR, followed by a second on the PCR product from the first) greatly increased amplification success. 
-Recently, Wu and Kuo (in this issue) further refined the protocol published by Li et al (2009) by redesigning *trnL-L-F* primers to be universal across ferns and improving the tissue disruption step.
+Recently, Wu and Kuo (in this issue) further refined the protocol published by @Li2009 by redesigning *trnL-L-F* primers to be universal across ferns and improving the tissue disruption step.
 They also used the new TD-PCR method to reveal additional obligate independent gametophytes in Taiwan belonging to *Lomariopsis*.
 If tissue-direct sequencing could be combined with MinIon sequencing, it may become possible to conduct rapid, hi-throughput DNA barcoding of fern gametophytes in the field, potentially providing much greater insight into the structure of fern gametophyte communities.
 
-<!-- * tissue direct PCR [@Li2009]
-* next version of tissue direct PCR (Li-Yaung to send draft)
-* multiplexing DNA barcoding [@Gostel2020]
-* MinIon sequencing for field direct ID? -->
- 
 **DISCUSSION** 
 
 The study of fern ecology has long been hampered by the inability to investigate fern gametophytes in the field. 
@@ -267,7 +259,7 @@ The next phase of molecular ecology of fern gametophytes will undoubtedly bring 
 
 **ACKNOWLEDGMENTS**
 
-Li-Yaung Kuo kindly shared drafts of unpublished manuscripts.
+Li-Yaung Kuo kindly shared drafts of unpublished manuscripts and comments on an earlier version of this manuscript.
 
 **AUTHOR CONTRIBUTIONS** 
 
@@ -283,6 +275,73 @@ Code to generate the mansucript is available at https://github.com/joelnitta/gam
 
 \newpage
 
-**Figure 1.** Examples of fern gametophytes.
+```{r fig-1-captions}
+# Load data and format for creating photo captions ----
 
-**Figure 2.** Generalized workflow for DNA barcoding of fern gametophytes. The first step is to assemble a reference library of DNA sequences for a marker of interest (e.g., *rbcL*) using well-identified sporophytes from the study area; optionally, if this is not possible (e.g., if the provenance of the gametophyte is unknown), public databases such as GenBank or BOLD may be used instead. Next, DNA sequences are obtained from the unknown gametophyte and queried against the reference library using BLAST. Finally, an algorithm is used to sort results into successful identifications or failures based on a percent-identity cutoff. Other approaches may be used to match the unknown gametophyte to a reference such as phylogenetic analysis (see **Building and using a reference library**).
+# Load specimen data
+specimens <- read_csv("data/specimens.csv") %>%
+  mutate(
+    specific_epithet  = str_remove_all(specific_epithet, "[0-9]"),
+    species = paste(genus, specific_epithet)) %>%
+  select(specimenID, specimen, genus, specific_epithet, species)
+
+# Load photo data
+photos <- read_csv("data/photos.csv") %>%
+  select(specimenID, zoom, file)
+
+# Query IPNI for taxonomic authorities
+# (not vectorized, so need to loop)
+taxonomy <- map2_df(
+  specimens$genus, specimens$specific_epithet, 
+  ~ipni_search(genus = .x, species = .y, ranktoreturn = "spec") %>% 
+    select(species = full_name_without_family_and_authors, authors)) %>%
+  # There are multiple hits for H. polyanthos. Only use (Sw.) Sw.
+  filter((species == "Hymenophyllum polyanthos" & authors == "(Sw.) Sw.") | species != "Hymenophyllum polyanthos") %>%
+  assert(is_uniq, species) %>%
+  assert(not_na, everything())
+
+# Assign figure part labels by species
+fig_parts <- tribble(
+  ~species, ~part,
+  "Sphaeropteris medullaris", "A",
+  "Austroblechnum raiateense", "B",
+  "Crepidomanes minutum", "C",
+  "Abrodictyum dentatum", "D",
+  "Callistopteris apiifolia", "E",
+  "Hymenophyllum polyanthos", "F",
+  "Arthropteris palisotii", "G",
+  "Ptisana salicina", "H"
+)
+
+# Join specimen data, photo data, taxonomy, format caption
+captions_df <-
+left_join(photos, specimens, by = "specimenID") %>%
+  select(-genus, -specific_epithet) %>%
+  left_join(taxonomy, by = "species") %>%
+  left_join(fig_parts, by = "species") %>%
+  assert(is_uniq, species) %>%
+  assert(not_na, species, authors, specimen, part) %>%
+  mutate(caption = glue("*{species}* {authors} *{specimen}* (GH)"))
+
+# Make helper function to generate caption based on photo file
+part2cap <- function(part_select) {
+  captions_df %>% filter(part == part_select) %>%
+    pull(caption)
+}
+```
+
+**Figure 1.** Examples of fern gametophytes identified using DNA barcoding [@Nitta2017]: (A--F) pairs of species with similar morphology that could not be distinguished without molecular data; (G, H) appearance of gametophytes in the field. 
+Morphotype provides a hint to taxonomy but cannot be reliably used for species identification: the cordate (heart-shaped) morphotype (A, B, H) is the most common, especially in terrestrial species; the filamentous morphotype (C, D) is restricted to Hymenophyllaceae and Schizaeceae; the ribbon morphotype (E--G) typically occurs in Hymenophyllaceae, Vittariaceae, and several lineages of polypod ferns. 
+(A) `r part2cap("A")`.
+(B) `r part2cap("B")`.
+(C) `r part2cap("C")`.
+(D) `r part2cap("D")`.
+(E) `r part2cap("E")`.
+(F) `r part2cap("F")`.
+(G) `r part2cap("G")`.
+(H) `r part2cap("H")`.
+Herbarium codes follow @Thiers2021.
+For (A--F) scalebars all 1 mm; photos taken under a dissecting microscope.
+All photos by J. H. Nitta.
+
+**Figure 2.** Generalized workflow for DNA barcoding of fern gametophytes. The first step is to assemble a reference library of DNA sequences for a marker of interest (e.g., *rbcL*) using well-identified sporophytes from the study area; or, if this is not possible (e.g., if the provenance of the gametophyte is unknown), public databases such as GenBank or BOLD may be used instead. Next, DNA sequences are obtained from the unknown gametophyte and queried against the reference library using BLAST. Finally, an algorithm is used to sort results into successful identifications or failures based on a percent-identity cutoff. Other approaches may be used to match the unknown gametophyte to a reference such as phylogenetic analysis (see **Building and using a reference library**).
