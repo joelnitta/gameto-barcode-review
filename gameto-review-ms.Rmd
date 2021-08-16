@@ -37,6 +37,7 @@ Email addresses:
 JHN: joelnitta@gmail.com  
 SMC: schambers@selby.org
 
+<!-- FIXME: add wordcount after rendering -->
 Number of words:
 
 ^1^Manuscript received _______; revision accepted _______.
@@ -344,4 +345,11 @@ Herbarium codes follow @Thiers2021.
 For (A--F) scalebars all 1 mm; photos taken under a dissecting microscope.
 All photos by J. H. Nitta.
 
-**Figure 2.** Generalized workflow for DNA barcoding of fern gametophytes. The first step is to assemble a reference library of DNA sequences for a marker of interest (e.g., *rbcL*) using well-identified sporophytes from the study area; or, if this is not possible (e.g., if the provenance of the gametophyte is unknown), public databases such as GenBank or BOLD may be used instead. Next, DNA sequences are obtained from the unknown gametophyte and queried against the reference library using BLAST. Finally, an algorithm is used to sort results into successful identifications or failures based on a percent-identity cutoff. Other approaches may be used to match the unknown gametophyte to a reference such as phylogenetic analysis (see **Building and using a reference library**).
+**Figure 2.** Generalized workflow for DNA barcoding of fern gametophytes. 
+The first step is to assemble a reference library of DNA sequences for a marker of interest (e.g., *rbcL*) using well-identified sporophytes from the study area; or, if this is not possible (e.g., if the provenance of the gametophyte is unknown), public databases such as GenBank or BOLD may be used instead. 
+Next, DNA sequences are obtained from the unknown gametophyte and queried against the reference library using BLAST. 
+Finally, an algorithm is used to sort results into successful identifications or failures based on a percent-identity cutoff. 
+Other approaches may be used to match the unknown gametophyte to a reference such as phylogenetic analysis (see **Building and using a reference library**). 
+Gametophyte image by Jon Houseman used under CC BY-SA 4.0 license (https://creativecommons.org/licenses/by-sa/4.0/), downloaded from https://commons.wikimedia.org/wiki/File:Pter1025_Fern_gametophytes.jpg.
+Sporophyte silhouette (A) by Olegivvit used under CC BY-SA 3.0 license (https://creativecommons.org/licenses/by-sa/3.0/), downloaded from http://phylopic.org. 
+Sporophyte silhouettes (B, C) provided courtesy of Eric Schuettpelz and used with permission.

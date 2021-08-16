@@ -53,6 +53,34 @@ references:
   type: article-journal
   URL: http://www.amjbot.org/cgi/doi/10.3732/ajb.1500077
   volume: '103'
+- id: Chambers2017
+  accessed:
+  - year: 2021
+    month: 8
+    day: 13
+  author:
+  - family: Chambers
+    given: Sally M.
+  - family: Watkins
+    given: J. E.
+  - family: Sessa
+    given: Emily B.
+  container-title: American Journal of Botany
+  container-title-short: Am. J. Bot.
+  DOI: 10/f96g2d
+  ISSN: 0002-9122, 1537-2197
+  issue: '4'
+  issued:
+  - year: 2017
+    month: 4
+  language: en
+  page: 598-607
+  source: DOI.org (Crossref)
+  title: Differences in dehydration tolerance among populations of a gametophyte-only
+    fern
+  type: article-journal
+  URL: http://doi.wiley.com/10.3732/ajb.1600279
+  volume: '104'
 - id: Chase2005
   author:
   - family: Chase
@@ -912,7 +940,7 @@ references:
   - year: 2012
     month: 1
   page: 226-235
-  title: Primary hemiepiphytism and gametophyte morphology in Elaphoglossum amygdalifolium
+  title: Primary hemiepiphytism and gametophyte morphology in *Elaphoglossum amygdalifolium*
     (Dryopteridaceae)
   type: article-journal
   URL: http://www.springerlink.com/index/3342R140726G5217.pdf papers://ebd7d3df-d8f1-4be8-bcf7-4fb07ababf30/Paper/p1942
@@ -973,8 +1001,8 @@ references:
   language: en
   page: 403-412
   source: DOI.org (Crossref)
-  title: Identification of three independent fern gametophytes and Hymenophyllum wrightii
-    f. serratum from Korea based on molecular data
+  title: Identification of three independent fern gametophytes and *Hymenophyllum
+    wrightii* f. *serratum* from Korea based on molecular data
   type: article-journal
   URL: http://e-kjpt.org/journal/view.php?doi=10.11110/kjpt.2020.50.4.403
   volume: '50'
@@ -1673,7 +1701,7 @@ references:
   issued:
   - year: 2007
   page: e14
-  title: Power and limitations of the chloroplast trnL (UAA) intron for plant DNA
+  title: Power and limitations of the chloroplast *trn*L (UAA) intron for plant DNA
     barcoding
   type: article-journal
   URL: papers://ebd7d3df-d8f1-4be8-bcf7-4fb07ababf30/Paper/p428
@@ -1692,7 +1720,7 @@ references:
   - year: 2014
     month: 6
   page: 526-536
-  title: Primary Hemiepiphytism in Colysis ampla (Polypodiaceae) provides new insight
+  title: Primary hemiepiphytism in *Colysis ampla* (Polypodiaceae) provides new insight
     into the evolution of growth habit in ferns
   type: article-journal
   URL: http://www.jstor.org/stable/info/10.1086/675934
@@ -1741,8 +1769,8 @@ references:
   page: 1004-1015
   publisher: The University of Chicago Press
   source: journals.uchicago.edu (Atypon)
-  title: Gametophytes of the Fern Genera Dracoglossum and Lomariopsis (Lomariopsidaceae)
-    and their Phylogenetic Significance
+  title: Gametophytes of the fern genera *Dracoglossum* and *Lomariopsis* (Lomariopsidaceae)
+    and their phylogenetic significance
   type: article-journal
   URL: https://www.journals.uchicago.edu/doi/full/10.1086/705587
   volume: '180'
