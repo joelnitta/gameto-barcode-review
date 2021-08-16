@@ -80,7 +80,7 @@ Since this method became available, it has revolutionized the study of pteridoph
 Here, we review the use of DNA barcoding as applied to fern gametophytes, starting with the development of the method, then discussing various case studies, and concluding with future directions. 
 Although the concepts discussed here all apply equally to ferns and lycophytes, we are not aware of any studies using DNA barcoding of lycophytes, so our discussion will focus on ferns.
 
-**Initial studies**
+**INITIAL STUDIES**
 
 The earliest examples of DNA barcoding applied to gametophytes were proof-of-concept studies that demonstrated the viability of the method. 
 The basic approach taken by these studies is still used today: Sanger sequencing of one or more of the most frequently sequenced plastid genes in ferns (Fig. 2). 
@@ -90,7 +90,7 @@ In this study, @Li2009a expanded gene sampling relative to @Schneider2006a to in
 Despite this, they could not determine the species due to lack of an exact match in reference sequences from GenBank. 
 These two studies highlight some of the challenges facing DNA barcoding: 1. choice of barcode marker and 2. development of an appropriate reference library.
 
-**Choosing a barcode marker**
+**CHOOSING A BARCODE MARKER**
 
 The power of DNA barcoding lies in its universality: the ability to sequence a standard region of DNA and use this for identification of (theoretically) any unknown organism. 
 The choice of mitochondrial *COI* as a universal barcode marker for animals was quickly adopted because this marker can be reliably sequenced across a broad phylogenetic range and tends to show high discrimination power at the species level [@Hebert2003a; @Hebert2003b]. 
@@ -111,7 +111,7 @@ Although @Li2011 demonstrated that *matK* is a strong candidate as a second DNA 
 Rather, most studies have taken an ad-hoc approach, sampling genes and constructing reference libraries that make sense for the purpose of each study (while typically including *rbcL*). 
 We thus consider DNA barcoding in ferns in the broad sense (use of DNA sequences to identify cryptic gametophytes), and do not limit our discussion to any particular "official" barcode.
 
-**Building and using a reference library**
+**BUILDING AND USING A REFERENCE LIBRARY**
 
 Equally important as choosing a barcode marker is constructing, and using, a reference library.
 Typically for ferns, the reference library consists of sequences obtained from well identified sporophytes that are known to occur in the same region as the sampled gametophytes (Fig. 2).
@@ -129,7 +129,7 @@ A simple % identity or e-value cutoff in BLAST will not work in such situations-
 @Nitta2017 implemented an algorithm that identified gametophytes using cutoff values that took such conditions into account, and this approach could be used in other regional studies that include a reference library (Fig. 2).
 Alternatively, bi-parentally inherited markers from the nucleus could be used instead, but these are both technically more challenging to generate sequence data (PCR is typically much more successful for plastid markers) and to bioinformatically process due to having multiple sequences per individual.
 
-**Range expansions and long-lived sporophyteless gametophytes**
+**RANGE EXPANSIONS AND LONG-LIVED SPOROPHYTELESS GAMETOPHYTES**
 
 A major application of DNA barcoding in ferns has been documenting the distribution of disjunct populations of fern gametophytes relative to their sporophytic counterparts [reviewed in @Pinson2016a].
 The ability of fern gametophytes to grow spatially separated from sporophytes reaches an extreme in long-lived sporophyteless species, whereby disjunct populations of gametophytes exist without sexual reproduction or recruitment from spores well beyond the geographic extent of sporophyte producing populations [obligate independent gametophytes *sensu* @Kuo2017b].
@@ -150,7 +150,7 @@ The careful studies of @Kuo2017b and @Park2021, which included observations of g
 Furthermore, although @Kuo2017b could not confidently identify the obligate independent gametophyte population in Taiwan to species due to a lack of sufficiently similar reference sequences, @Chen2019b later sequenced additional sporophytes and confirmed the identity of the gametophytes as *Haplopteris capillaris* (Copel.) C. W. Chen, S. Linds. & K. T. Yong.
 This highlights the importance of the reference library in conducting DNA barcoding of fern gametophytes.
 
-**Scaling up: Community ecology of fern gametophytes**
+**SCALING UP: COMMUNITY ECOLOGY OF FERN GAMETOPHYTES**
 
 Beyond identifying individual populations of gametophytes, some DNA barcoding studies have sought to compare community-level diversity between gametophytes and sporophytes. 
 Since gametophytes have the ability to occur over wider ranges and only produce sporophytes within a portion of that range, it is possible that community structure may vary between the two life stages. 
@@ -176,7 +176,7 @@ Indeed, this expectation of greater species richness in the gametophyte phase wa
 They did this by establishing six subplots side-by-side at a single site in Taiwan and exhaustively sampling the subplots once every two months, then comparing the observed gametophyte diversity with the diversity of sporophytes at the site. 
 This demonstrates that careful sampling is needed to accurately compare community-level diversity between fern sporophytes and gametophytes.
 
-**Other ecological studies**
+**OTHER ECOLOGICAL STUDIES**
 
 Non-molecular studies of fern gametophyte ecology have relied on methods such as tracing the ontology from sporophyte back to gametophyte, or targeting taxa with unique morphological characters (e.g., presence of certain types of glandular hairs) that can be used for species-level identification at a particular site [e.g., @Lagomarsino2012; @Testo2014a; @Watkins2019; @Watts2019].
 Such methods, while simple and useful, are inherently limited in the number of species that can be studied.
@@ -209,7 +209,7 @@ One of the most surprising results of this study was that the gametophytes of *C
 Rather, @Nitta2021 hypothesize that *C. apiifolia* gametophytes exploit small, well-protected microhabitats at the bases of rocks and trees to avoid desiccation and thus attain a broader geographic range than conspecific sporophytes.
 This points to the importance of microhabitat for understanding the distribution of fern gametophytes, which has also been supported by the finding of wide intraspecific variation in desiccation tolerance in vittarioid gametophytes mirroring variation in their environmental conditions [@Stevens2015; @Chambers2016; @Chambers2017].
 
-**Advances in DNA sequencing technology**
+**ADVANCES IN DNA SEQUENCING TECHNOLOGY**
 
 There have been no published studies applying next-generation DNA sequencing to identification of fern gametophytes, to our knowledge.
 Incorporating next-gen methods will offer two major benefits: the ability to generate much more data far more cheaply (in price per base) than Sanger sequencing, and the possibility to obtain DNA sequences while in the field.
@@ -271,6 +271,8 @@ J.H.N. and S.M.C. wrote the manuscript.
 Code to generate the mansucript is available at https://github.com/joelnitta/gameto-barcode-review.
  
 **LITERATURE CITED**
+
+<!--FIXME: add doi for Nitta et al 2021 https://doi.org/10.1007/s10265-021-01318-z -->
 
 <div id="refs"></div>
 
