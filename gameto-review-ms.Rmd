@@ -334,7 +334,7 @@ part2cap <- function(part_select) {
 ```
 
 **Figure 1.** Examples of fern gametophytes identified using DNA barcoding [@Nitta2017]: (A--F) pairs of species with similar morphology that could not be distinguished without molecular data; (G, H) appearance of gametophytes in the field. 
-Morphotype provides a hint to taxonomy but cannot be reliably used for species identification: the cordate (heart-shaped) morphotype (A, B, H) is the most common, especially in terrestrial species; the filamentous morphotype (C, D) is restricted to Hymenophyllaceae and Schizaeceae; the ribbon morphotype (E--G) typically occurs in Hymenophyllaceae, Vittariaceae, and several lineages of polypod ferns. 
+Morphotype provides a hint to taxonomy but cannot be reliably used for species identification: the cordate (heart-shaped) morphotype (A, B, H) is the most common, especially in terrestrial species; the filamentous morphotype (C, D) is restricted to Hymenophyllaceae and Schizaeaceae; the ribbon morphotype (E--G) typically occurs in Hymenophyllaceae, Vittariaceae, and several lineages of polypod ferns. 
 (A) `r part2cap("A")`.
 (B) `r part2cap("B")`.
 (C) `r part2cap("C")`.
