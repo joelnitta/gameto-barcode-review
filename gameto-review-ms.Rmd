@@ -67,7 +67,7 @@ This has critical implications for understanding the biology of ferns and lycoph
 As the sexual stage producing gametes and undergoing fertilization, gametophytes are particularly relevant.
 However, there are two qualities of pteridophyte gametophytes that make them difficult to study: their small size (typically < 1 cm) and cryptic morphology.
 While higher taxonomic groups such as family or genus often have defining characters, gametophytes typically lack morphological characters that can be used to differentiate species [@Nayar1971; Fig. 1].
-In some pteridophytes (most lycophytes; Ophioglossaceae; Schizaeaceae; *Stromatopteris*), the gametophytes are subterranean and achlorophyllous, making them even more cryptic and less likely to be noticed.
+In some pteridophytes (most lycophytes; Ophioglossaceae; Psilotaceae; Schizaeaceae; *Stromatopteris*), the gametophytes are subterranean and achlorophyllous, making them even more cryptic and less likely to be noticed.
 For these reasons, there is a strong tendency among ecological studies of pteridophytes to only sample sporophytes.
 In contrast, field-based studies of pteridophyte gametophytes are rare, and most of the research on pteridophyte gametophytes has been based on cultivation from spores in the laboratory.
 These have yielded insights into morphology, development, and reproduction (i.e., mating systems).
@@ -87,7 +87,7 @@ The basic approach taken by these studies is still used today: Sanger sequencing
 @Schneider2006a were the first to do so, using *rbcL* to identify a gametophyte individual that had been in cultivation for > 30 years as *Osmunda regalis* L. 
 Likewise, @Li2009a identified a single gametophyte individual kept in cultivation as a species of *Lomariopsis*. 
 In this study, @Li2009a expanded gene sampling relative to @Schneider2006a to include more rapidly evolving intergenic regions in addition to the widely sequenced, but relatively more slowly evolving, *rbcL*. 
-Despite this, they could not determine the species due to lack of an exact match in reference sequences from GenBank. 
+Despite this, they could not conclusively determine the species due to lack of sufficiently closely related reference sequences in GenBank.
 These two studies highlight some of the challenges facing DNA barcoding: 1. choice of barcode marker and 2. development of an appropriate reference library.
 
 **CHOOSING A BARCODE MARKER**
@@ -113,10 +113,16 @@ We thus consider DNA barcoding in ferns in the broad sense (use of DNA sequences
 
 **BUILDING AND USING A REFERENCE LIBRARY**
 
-Equally important as choosing a barcode marker is constructing, and using, a reference library.
+Equally important as choosing a barcode marker is constructing and validating the reference library.
 Typically for ferns, the reference library consists of sequences obtained from well identified sporophytes that are known to occur in the same region as the sampled gametophytes (Fig. 2).
-These sequences are then used to guide identification of the unknown gametophyte sequence.
-Bioinformatic methods used for identification have included BLAST [@Altschul1997] [e.g., @Nitta2017], which provides metrics indicating the probability that the two sequences are identical by chance, and phylogenetic inference [e.g., @DeGroot2011a].
+In some cases, species delimitation of sporophytes may be hampered by cryptic speciation and/or hybridization; such situations may require molecular species delimitation [e.g., @Pons2006; @Kekkonen2014; @Kapli2017] or molecular systematic analysis [e.g., @Murakami1999; @Ebihara2005; @Ebihara2009; @Hori2014; @Hori2018a], but a discussion of such methodologies is beyond the scope of this review.
+Prior to attempting DNA-based identification of unknown gametophytes, the barcode library should evaluated to ensure that the selected markers are sufficiently divergent between species to allow discrimination.
+Ideally, markers should also show less variation within than between species, a disjunct known as the "barcode gap" [@Meyer2005].
+Few studies have analyzed the barcode gap for ferns, but those that have often find at least some overlap between intraspecific and interspecific genetic distances [@Nitta2008; @Wang2016; @Liu2018; @Trujillo-Argueta2021; but see @DeGroot2011a].
+This indicates that DNA barcoding is unlikely to be 100% successful in all cases; therefore, it is important to quantify the expected failure rate and/or expected undistinguishable taxa for each study.
+
+After assembly and validation of the reference library, these sequences are then used to guide identification of the unknown gametophyte sequence.
+Bioinformatic methods used for identification of fern gametophytes have included BLAST [@Altschul1997] [e.g., @Nitta2017], which provides metrics indicating the probability that the two sequences are identical by chance, and phylogenetic inference [e.g., @DeGroot2011a].
 The choice of method depends on the degree of coverage of the reference library and quality of sequences.
 If the provenance of the gametophyte is unknown, it may be impossible to construct a reference library, and the only option to conduct a BLAST search against all sequences on GenBank and/or BOLD [e.g., @Li2009a].
 In such situations, insufficient sequencing of the world's extant ferns means that there may be no single exact match to the query.
@@ -350,8 +356,7 @@ All photos by J. H. Nitta.
 **Figure 2.** Generalized workflow for DNA barcoding of fern gametophytes. 
 The first step is to assemble a reference library of DNA sequences for a marker of interest (e.g., *rbcL*) using well-identified sporophytes from the study area; or, if this is not possible (e.g., if the provenance of the gametophyte is unknown), public databases such as GenBank or BOLD may be used instead. 
 Next, DNA sequences are obtained from the unknown gametophyte and queried against the reference library using BLAST. 
-Finally, an algorithm is used to sort results into successful identifications or failures based on a percent-identity cutoff. 
+Finally, an algorithm is used to sort results into successful identifications or failures based on a percent-identity cutoff (the value used in the figure is an arbitrary example). 
 Other approaches may be used to match the unknown gametophyte to a reference such as phylogenetic analysis (see **Building and using a reference library**). 
-Gametophyte image by Jon Houseman used under CC BY-SA 4.0 license (https://creativecommons.org/licenses/by-sa/4.0/), downloaded from https://commons.wikimedia.org/wiki/File:Pter1025_Fern_gametophytes.jpg.
-Sporophyte silhouette (A) by Olegivvit used under CC BY-SA 3.0 license (https://creativecommons.org/licenses/by-sa/3.0/), downloaded from http://phylopic.org. 
+Gametophyte image and sporophyte silhouette (A) provided courtesy of Emily Sessa and used with permission.
 Sporophyte silhouettes (B, C) provided courtesy of Eric Schuettpelz and used with permission.
