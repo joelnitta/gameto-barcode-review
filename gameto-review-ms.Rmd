@@ -37,7 +37,7 @@ Email addresses:
 JHN: joelnitta@gmail.com  
 SMC: schambers@selby.org
 
-<!-- FIXME: add wordcount after rendering -->
+<!-- FIXME: add wordcount after rendering, include: total word count for the main text of the manuscript (Introduction, Methods and Results, Conclusions) -->
 Number of words:
 
 ^1^Manuscript received _______; revision accepted _______.
@@ -116,7 +116,7 @@ We thus consider DNA barcoding in ferns in the broad sense (use of DNA sequences
 Equally important as choosing a barcode marker is constructing and validating the reference library.
 Typically for ferns, the reference library consists of sequences obtained from well identified sporophytes that are known to occur in the same region as the sampled gametophytes (Fig. 2).
 In some cases, species delimitation of sporophytes may be hampered by cryptic speciation and/or hybridization; such situations may require molecular species delimitation [e.g., @Pons2006; @Kekkonen2014; @Kapli2017] or molecular systematic analysis [e.g., @Murakami1999; @Ebihara2005; @Ebihara2009; @Hori2014; @Hori2018a], but a discussion of such methodologies is beyond the scope of this review.
-Prior to attempting DNA-based identification of unknown gametophytes, the barcode library should evaluated to ensure that the selected markers are sufficiently divergent between species to allow discrimination.
+Prior to attempting DNA-based identification of unknown gametophytes, the barcode library should be evaluated to ensure that the selected markers are sufficiently divergent between species to allow discrimination.
 Ideally, markers should also show less variation within than between species, a disjunct known as the "barcode gap" [@Meyer2005].
 Few studies have analyzed the barcode gap for ferns, but those that have often find at least some overlap between intraspecific and interspecific genetic distances [@Nitta2008; @Wang2016; @Liu2018; @Trujillo-Argueta2021; but see @DeGroot2011a].
 This indicates that DNA barcoding is unlikely to be 100% successful in all cases; therefore, it is important to quantify the expected failure rate and/or expected undistinguishable taxa for each study.
@@ -150,11 +150,14 @@ Another successful identification of North American independent gametophytes was
 Finally, @Pinson2017 used *rbcL* and *rpoA* to identify independent gametophytes at a site in Broxton Rocks, GA as belonging to *Didymoglossum petersii* (A. Gray) Copel.
 
 Unraveling the origins of *T. intricatum* and *H. wrightii* spurred on the search for additional populations of independent gametophytes in East Asia.
-@Lee2020 recently documented additional populations of *T. intricatum* and *H. wrightii* in Korea. 
-Furthermore, multiple independent vittarioid gametophytes have been found in Taiwan [@Kuo2017b], Korea [@Park2020; @Park2021], and Japan [@Ebihara2013; @Kuo2017b]. 
-The careful studies of @Kuo2017b and @Park2021, which included observations of gametangia, have helped to provide insights into the mechanisms suppressing functional sporophyte production in these populations.
-Furthermore, although @Kuo2017b could not confidently identify the obligate independent gametophyte population in Taiwan to species due to a lack of sufficiently similar reference sequences, @Chen2019b later sequenced additional sporophytes and confirmed the identity of the gametophytes as *Haplopteris capillaris* (Copel.) C. W. Chen, S. Linds. & K. T. Yong.
-This highlights the importance of the reference library in conducting DNA barcoding of fern gametophytes.
+Additional independent vittarioid gametophytes have been found in Taiwan [@Kuo2017b], Korea [@Park2020; @Park2021], and Japan [@Ebihara2013; @Kuo2017b]. 
+@Lee2020 documented additional populations of *T. intricatum* and *H. wrightii* in Korea.
+Furthermore, the careful studies of @Kuo2017b and @Park2021, which included observations of gametangia, have helped to provide insights into the mechanisms suppressing functional sporophyte production in these populations.
+
+Recently, @Murakami2021 applied a new approach in the search for independent gametophytes in Japan: they specifically searched for and sampled gametophytes occurring in large, clonal mats based on the idea that these likely represent populations that have been reproducing asexually for long periods of time and are therefore good candidates for obligate independent gametophytes.
+The approach of @Murakami2021 proved successful, revealing independent populations of *Hymenophyllum mikawanum* (Seriz.) Seriz., a rare and endangered species in Japan, *Haplopteris mediosora* (Hayata) X. C. Zhang, which was previously only known in Japan from a handful of sporophyte collections and whose existence was considered doubtful, and *Antrophyum plantagineum* (Cav.) Kaulf., which had never been previously observed in Japan at all.
+
+Finally, the study of @Chen2019b demonstrates the importance of the reference library in conducting DNA barcoding of fern gametophytes: although @Kuo2017b could not confidently identify the obligate independent gametophyte population in Taiwan to species due to a lack of sufficiently similar reference sequences, @Chen2019b later sequenced additional sporophytes and was able to confirm the identity of the gametophyte population as *Haplopteris capillaris* (Copel.) C. W. Chen, S. Linds. & K. T. Yong.
 
 **SCALING UP: COMMUNITY ECOLOGY OF FERN GAMETOPHYTES**
 
