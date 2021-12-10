@@ -108,7 +108,7 @@ Recently, [@Nitta2020c] compared rates of interspecific variation in *rbcL* in t
 This highlights the need to consider biogeography in DNA barcoding of fern gametophytes, at least when the provenance of specimens is known. 
 
 Although @Li2011 demonstrated that *matK* is a strong candidate as a second DNA barcode marker in ferns, their recommendation was predicated on the development of additional primers for this region, but in the decade since, there has been no development of a single set of universal *matK* primers in ferns [@Kuo2011]. 
-Rather, most studies have taken an ad-hoc approach, sampling genes and constructing reference libraries that make sense for the purpose of each study (while typically including *rbcL*). 
+Rather, most studies have taken an ad-hoc approach, sampling genes and constructing reference libraries that make sense for the purpose of each study, while typically including *rbcL*. 
 We thus consider DNA barcoding in ferns in the broad sense (use of DNA sequences to identify cryptic gametophytes), and do not limit our discussion to any particular "official" barcode.
 
 **BUILDING AND USING A REFERENCE LIBRARY**
@@ -120,7 +120,7 @@ Prior to attempting DNA-based identification of unknown gametophytes, the barcod
 Ideally, markers should also show less variation within than between species, a disjunct known as the "barcode gap" [@Meyer2005].
 Results of the few studies that have analyzed the barcode gap in ferns vary by marker, taxonomic group, and geographic region; collectively, they do not support a clear barcode gap in ferns [@Nitta2008; @Wang2016; @Liu2018; @Trujillo-Argueta2021; but see @DeGroot2011a]. 
 Rather, these indicate that DNA barcoding is unlikely to be 100% successful in all cases; therefore, it is important to quantify the expected failure rate and/or expected undistinguishable taxa for each study. 
-As a practical matter, analyzing intraspecific variation increases the cost and effort of sequencing by multiple factors (as it requires sampling each species multiple times) and intraspecific variation is expected to be quite low in diploid, sexual taxa, especially for a slowly-evolving marker like *rbcL* [@Murakami2021]. 
+As a practical matter, analyzing intraspecific variation increases the cost and effort of sequencing by multiple factors (as it requires sampling each species multiple times) and intraspecific variation is expected to be quite low in diploid, sexual taxa, especially for a slowly evolving marker like *rbcL* [@Murakami2021]. 
 Therefore, previous studies including large numbers of taxa (e.g., > 100 species) typically have characterized failure rate using primarily interspecific distances [@Ebihara2010; @Nitta2017], including multiple samples per taxon only in cases of known or putative species complexes [@Nitta2020].
 
 After assembly and validation of the reference library, these sequences are then used to guide identification of the unknown gametophyte sequence.
@@ -283,7 +283,7 @@ Code to generate the mansucript is available at https://github.com/joelnitta/gam
  
 **LITERATURE CITED**
 
-<!--FIXME: add doi for Nitta et al 2021 https://doi.org/10.1007/s10265-021-01318-z -->
+<!--FIXME: add "In Japanese" to Murakami 2021 -->
 
 <div id="refs"></div>
 
