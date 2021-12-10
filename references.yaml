@@ -20,8 +20,8 @@ references:
   issued:
   - year: 1997
   page: 3389-3402
-  title: 'Gapped BLAST and PSI-BLAST: a new generation of protein database search
-    programs.'
+  title: 'Gapped BLAST and PSI-BLAST: A new generation of protein database search
+    programs'
   type: article-journal
   URL: papers://ebd7d3df-d8f1-4be8-bcf7-4fb07ababf30/Paper/p449
   volume: '25'
@@ -105,7 +105,7 @@ references:
   - year: 2005
     month: 9
   page: 1889-1895
-  title: 'Land plants and DNA barcodes: short-term and long-term goals'
+  title: 'Land plants and DNA barcodes: Short-term and long-term goals'
   type: article-journal
   URL: papers://ebd7d3df-d8f1-4be8-bcf7-4fb07ababf30/Paper/p563
   volume: '360'
@@ -330,7 +330,7 @@ references:
   - year: 2015
   page: 45-55
   title: 'Independent gametophytes of <span class="nocase">*Hymenophyllum wrightii*</span>
-    in North America: not as rare as we thought'
+    in North America: Not as rare as we thought'
   type: article-journal
   volume: '105'
 - id: Ebihara2005
@@ -535,7 +535,7 @@ references:
   page: '8701'
   publisher: Nature Publishing Group
   source: www.nature.com
-  title: 'Microfluidic Enrichment Barcoding (MEBarcoding): a new method for high throughput
+  title: 'Microfluidic Enrichment Barcoding (MEBarcoding): A new method for high throughput
     plant DNA barcoding'
   title-short: Microfluidic Enrichment Barcoding (MEBarcoding)
   type: article-journal
@@ -738,7 +738,7 @@ references:
   language: en
   page: '219'
   source: DOI.org (Crossref)
-  title: 'A Sequel to Sanger: amplicon sequencing that scales'
+  title: 'A Sequel to Sanger: Amplicon sequencing that scales'
   title-short: A Sequel to Sanger
   type: article-journal
   URL: https://bmcgenomics.biomedcentral.com/articles/10.1186/s12864-018-4611-3
@@ -844,16 +844,20 @@ references:
     given: Atsushi
   - family: Murakami
     given: Noriaki
+  container-title: Acta Phytotaxonomica et Geobotanica
+  issue: '2'
   issued:
   - year: 2018
     month: 6
     day: 30
   language: en
+  page: 77-108
   source: DOI.org (CSL JSON)
   title: Revised classification of the species within the *Dryopteris varia *complex
     (Dryopteridaceae) in Japan
   type: article-journal
   URL: https://doi.org/10.18942/apg.201720
+  volume: '69'
 - id: Kapli2017
   accessed:
   - year: 2021
@@ -886,8 +890,8 @@ references:
   language: en
   page: 1630-1638
   source: DOI.org (Crossref)
-  title: Multi-rate Poisson Tree Processes for single-locus species delimitation under
-    Maximum Likelihood and Markov Chain Monte Carlo.
+  title: Multi-rate Poisson tree processes for single-locus species delimitation under
+    maximum likelihood and Markov chain Monte Carlo.
   type: article-journal
   URL: https://academic.oup.com/bioinformatics/article-lookup/doi/10.1093/bioinformatics/btx025
   volume: '33'
@@ -951,7 +955,7 @@ references:
   issued:
   - year: 2007
   page: e508
-  title: 'A two-locus global DNA barcode for land plants: the coding *rbcL* gene complements
+  title: 'A two-locus global DNA barcode for land plants: The coding *rbcL* gene complements
     the non-coding *trnH–psbA* spacer region'
   type: article-journal
   URL: papers://ebd7d3df-d8f1-4be8-bcf7-4fb07ababf30/Paper/p444
@@ -1302,7 +1306,7 @@ references:
   - year: 2018
   page: 1009-1022
   title: 'Inferring the potential of plastid DNA-based identification of derived ferns:
-    a case study on the *Asplenium trichomanes* aggregate in Europe'
+    A case study on the *Asplenium trichomanes* aggregate in Europe'
   type: article-journal
   URL: https://doi.org/10.1007/s00606-018-1529-9
   volume: '304'
@@ -1430,7 +1434,8 @@ references:
   issued:
   - year: 2006
   page: 335-341
-  title: 'DNA barcoding in land plants: evaluation of rbcL in a multigene tiered approach'
+  title: 'DNA barcoding in land plants: Evaluation of *rbcL* in a multigene tiered
+    approach'
   type: article-journal
   URL: papers://ebd7d3df-d8f1-4be8-bcf7-4fb07ababf30/Paper/p408
   volume: '84'
@@ -1590,36 +1595,6 @@ references:
   type: article-journal
   URL: papers://ebd7d3df-d8f1-4be8-bcf7-4fb07ababf30/Paper/p590
   volume: '119'
-- id: Park2020
-  accessed:
-  - year: 2020
-    month: 5
-    day: 11
-  author:
-  - family: Park
-    given: Daniel S.
-  - family: Feng
-    given: Xiao
-  - family: Maitner
-    given: Brian S.
-  - family: Ernst
-    given: Kacey C.
-  - family: Enquist
-    given: Brian J.
-  container-title: Proceedings of the National Academy of Sciences
-  container-title-short: Proc Natl Acad Sci USA
-  DOI: 10/ggvnhd
-  ISSN: 0027-8424, 1091-6490
-  issued:
-  - year: 2020
-    month: 5
-    day: 4
-  language: en
-  page: '201918100'
-  source: DOI.org (Crossref)
-  title: Darwin’s naturalization conundrum can be explained by spatial scale
-  type: article-journal
-  URL: http://www.pnas.org/lookup/doi/10.1073/pnas.1918100117
 - id: Park2020
   accessed:
   - year: 2020
@@ -1820,7 +1795,7 @@ references:
     day: 1
   language: en
   source: DOI.org (Crossref)
-  title: 'Real-time DNA barcoding in a rainforest using nanopore sequencing: opportunities
+  title: 'Real-time DNA barcoding in a rainforest using nanopore sequencing: Opportunities
     for rapid biodiversity assessments and local capacity building'
   title-short: Real-time DNA barcoding in a rainforest using nanopore sequencing
   type: article-journal
@@ -1890,8 +1865,8 @@ references:
   - year: 2017
   page: 413-429
   PMID: '26285040'
-  title: 'Next-generation polyploid phylogenetics: rapid resolution of hybrid polyploid
-    complexes using PacBio single-molecule sequencing.'
+  title: 'Next-generation polyploid phylogenetics: Rapid resolution of hybrid polyploid
+    complexes using PacBio single-molecule sequencing'
   type: article-journal
   volume: '213'
 - id: Schneider2006a
