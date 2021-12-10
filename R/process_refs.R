@@ -36,6 +36,12 @@ cite_keys <- map_chr(ref_yaml$references, "id") %>%
   # Stop if any keys are missing
   assert(not_na, everything())
 
+# Write out cite keys formatted for making a list (".aux" file) in Zotero
+cite_keys %>%
+  mutate(key_bbt = paste0("\\", "citation{",key,"}")) %>%
+  pull(key_bbt) %>%
+  write_lines("results/gameto-barcode-review.aux")
+
 # Filter YAML to only those citation keys in the RMD
 list(references = ref_yaml$references[cite_keys$order]) %>%
   # Write out the YAML file
