@@ -767,10 +767,10 @@
     },
     "renv": {
       "Package": "renv",
-      "Version": "0.10.0",
+      "Version": "0.14.0",
       "Source": "Repository",
       "Repository": "CRAN",
-      "Hash": "0d3f1c2b63e70b3d918246b4e2ca59b7"
+      "Hash": "30e5eba91b67f7f4d75d31de14bbfbdc"
     },
     "reprex": {
       "Package": "reprex",
