@@ -1,12 +1,22 @@
 ---
 output: 
-  word_document:
+  bookdown::word_document2:
     pandoc_args: [ "--csl", "american-journal-of-botany.csl"]
     toc: no
+    number_sections: no
     reference_docx: american-journal-of-botany.docx
+  bookdown::pdf_document2:
+    citation_package: default
+    toc: no
+    number_sections: no
+    fig_caption: no
+    latex_engine: xelatex
+    pandoc_args: [ "--csl", "american-journal-of-botany.csl"]
 bibliography:
   - references.yaml
   - references_other.yaml
+params:
+  doc_type: docx
 editor_options: 
   chunk_output_type: console
 ---
@@ -17,10 +27,16 @@ library(tidyverse)
 library(taxize)
 library(glue)
 library(assertr)
-# Set knitr options
-knitr::opts_chunk$set(echo = FALSE, message = FALSE, warning = FALSE, results = "hide", cache = TRUE)
+library(tinytex) # needed for rendering to PDF
+library(bookdown) # needed for rendering
+
+# Load custom functions
+source(here::here("R/functions.R"))
 ```
 
+```{r title-page-doc, results = "asis", echo = FALSE, eval = params$doc_type == "docx"}
+# Title page, version for submission to journal
+cat('
 <br>
 
 *Nitta and Chambers---DNA barcoding of fern gametophytes*
@@ -43,6 +59,23 @@ Number of words:
 ^1^Manuscript received _______; revision accepted _______.
 
 ^4^Author for correspondence: joelnitta@gmail.com
+')
+```
+
+```{r title-page-pdf, results = "asis", echo = FALSE, eval = params$doc_type == "pdf"}
+# Title page, version for pre-print
+cat('
+# Identifying cryptic fern gametophytes using DNA barcoding: A review
+
+Joel H. Nitta^1,3^ and Sally M. Chambers^2^
+
+^1^Department of Biological Sciences, Graduate School of Science, The University of Tokyo, 2-11-16 Yayoi, Bunkyo-ku, Tokyo, 113-0032, Japan
+
+^2^Marie Selby Botanical Gardens, Botany Department, Sarasota FL 34236 USA
+
+^3^Author for correspondence: joelnitta@gmail.com
+')
+```
 
 **ABSTRACT**
 
@@ -289,7 +322,7 @@ Code to generate the mansucript is available at https://github.com/joelnitta/gam
 
 \newpage
 
-```{r fig-1-captions}
+```{r fig-1-captions, echo = FALSE, message = FALSE, warning = FALSE, results = "hide"}
 # Load data and format for creating photo captions ----
 
 # Load specimen data
@@ -344,6 +377,11 @@ part2cap <- function(part_select) {
 }
 ```
 
+```{r fig-1, echo = FALSE, out.width = "6.5in", eval = params$doc_type == "pdf"}
+# Print figure if rendering to PDF
+knitr::include_graphics(here::here("images/fig1_gametos.png"))
+```
+
 **Figure 1.** Examples of fern gametophytes identified using DNA barcoding [@Nitta2017]: (A--F) pairs of species with similar morphology that could not be distinguished without molecular data; (G, H) appearance of gametophytes in the field. 
 Morphotype provides a hint to taxonomy but cannot be reliably used for species identification: the cordate (heart-shaped) morphotype (A, B, H) is the most common, especially in terrestrial species; the filamentous morphotype (C, D) is restricted to Hymenophyllaceae and Schizaeaceae; the ribbon morphotype (E--G) typically occurs in Hymenophyllaceae, Vittariaceae, and several lineages of polypod ferns. 
 (A) `r part2cap("A")`.
@@ -357,6 +395,13 @@ Morphotype provides a hint to taxonomy but cannot be reliably used for species i
 Herbarium codes follow @Thiers2021.
 For (A--F) scalebars all 1 mm; photos taken under a dissecting microscope.
 All photos by J. H. Nitta.
+
+`r pagebreak_pdf()`
+
+```{r fig-2, echo = FALSE, out.width = "6.5in", eval = params$doc_type == "pdf"}
+# Print figure if rendering to PDF
+knitr::include_graphics(here::here("images/fig2_workflow.png"))
+```
 
 **Figure 2.** Generalized workflow for DNA barcoding of fern gametophytes. 
 The first step is to assemble a reference library of DNA sequences for a marker of interest (e.g., *rbcL*) using well-identified sporophytes from the study area; or, if this is not possible (e.g., if the provenance of the gametophyte is unknown), public databases such as GenBank or BOLD may be used instead. 
