@@ -15,3 +15,7 @@ Rscript R/render.R
 ```
 
 The rendered docx (used for submission to journal) and pdf (pre-print) files should appear in `results/`.
+
+## Licenses
+
+- Code: [MIT](LICENSE)
