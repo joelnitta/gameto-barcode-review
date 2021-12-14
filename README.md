@@ -1,5 +1,7 @@
 # gameto-barcode-review
 
+[![DOI](https://zenodo.org/badge/374502539.svg)](https://zenodo.org/badge/latestdoi/374502539)
+
 R code for rendering "Identifying cryptic fern gametophytes using DNA barcoding: A review" Nitta and Chambers, *Applications in Plant Sciences*, accepted.
 
 ## R packages
