@@ -19,3 +19,4 @@ The rendered docx (used for submission to journal) and pdf (pre-print) files sho
 ## Licenses
 
 - Code: [MIT](LICENSE)
+- [Roboto font](https://github.com/google/roboto/): [Apache 2.0 license](http://www.apache.org/licenses/LICENSE-2.0)
