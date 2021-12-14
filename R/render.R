@@ -1,6 +1,6 @@
 # Run this to render the ms
 
-# docx (journal submission)
+# Render to docx (journal submission)
 rmarkdown::render(
   input = here::here("gameto-review-ms.Rmd"),
   knit_root_dir = here::here(),
@@ -9,11 +9,17 @@ rmarkdown::render(
   params = list(doc_type = "docx")
 )
 
-# pdf (pre-print)
+# Render to pdf (pre-print)
 rmarkdown::render(
   input = here::here("gameto-review-ms.Rmd"),
   knit_root_dir = here::here(),
   output_format = "bookdown::pdf_document2",
   output_file = here::here("results/gameto-review-ms.pdf"),
   params = list(doc_type = "pdf")
+)
+
+# Compress pdf
+tools::compactPDF(
+  paths = here::here("results/gameto-review-ms.pdf"),
+  gs_quality = "printer"
 )
