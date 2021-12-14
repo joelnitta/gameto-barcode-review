@@ -319,7 +319,7 @@ J.H.N. and S.M.C. wrote the manuscript.
 
 **DATA AVAILABILITY**
 
-Code to generate the mansucript is available at https://github.com/joelnitta/gameto-barcode-review.
+Data (photos and metadata used to create Fig. 1) and code to generate the manuscript available at https://github.com/joelnitta/gameto-barcode-review (DOI: 10.5281/zenodo.5778390).
  
 **LITERATURE CITED**
 
