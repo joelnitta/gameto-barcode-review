@@ -1,4 +1,5 @@
 ---
+title: "`r params$title`"
 output: 
   bookdown::word_document2:
     pandoc_args: [ "--csl", "american-journal-of-botany.csl"]
@@ -23,6 +24,7 @@ bibliography:
   - references_other.yaml
 params:
   doc_type: docx
+  title: ""
 editor_options: 
   chunk_output_type: console
 ---
@@ -45,34 +47,31 @@ source(here::here("R/functions.R"))
 cat('
 <br>
 
-*Nitta and Chambers---DNA barcoding of fern gametophytes*
+Nitta and Chambers---DNA barcoding of fern gametophytes
 
-# Identifying cryptic fern gametophytes using DNA barcoding: A review^1^
+Review Article
+
+**Identifying cryptic fern gametophytes using DNA barcoding: A review^1^**
 
 Joel H. Nitta^2,4^ and Sally M. Chambers^3^
+
+^1^Manuscript received 15 August 2021; revision accepted 11 December 2021.
 
 ^2^Department of Biological Sciences, Graduate School of Science, The University of Tokyo, 2-11-16 Yayoi, Bunkyo-ku, Tokyo, 113-0032, Japan
 
 ^3^Marie Selby Botanical Gardens, Botany Department, Sarasota FL 34236 USA
 
-Email addresses:  
-JHN: joelnitta@gmail.com  
-SMC: schambers@selby.org
+**Correspondence:** Joel H. Nitta, Department of Biological Sciences, Graduate School of Science, The University of Tokyo, 2-11-16 Yayoi, Bunkyo-ku, Tokyo, 113-0032, Japan. Email 
 
-<!-- FIXME: add wordcount after rendering, include: total word count for the main text of the manuscript (Introduction, Methods and Results, Conclusions) -->
-Number of words:
+joelnitta@gmail.com  
 
-^1^Manuscript received _______; revision accepted _______.
-
-^4^Author for correspondence: joelnitta@gmail.com
+**How to cite this article:** Nitta, J. H., and S. C. Chambers. 2022. Identifying cryptic fern gametophytes using DNA barcoding: A review. *Applications in Plant Sciences* 10(2):
 ')
 ```
 
 ```{r title-page-pdf, results = "asis", echo = FALSE, eval = params$doc_type == "pdf"}
 # Title page, version for pre-print
 cat('
-# Identifying cryptic fern gametophytes using DNA barcoding: A review
-
 Joel H. Nitta^1,3^ and Sally M. Chambers^2^
 
 ^1^Department of Biological Sciences, Graduate School of Science, The University of Tokyo, 2-11-16 Yayoi, Bunkyo-ku, Tokyo, 113-0032, Japan
@@ -83,10 +82,10 @@ Joel H. Nitta^1,3^ and Sally M. Chambers^2^
 ')
 ```
 
-**ABSTRACT**
+**Abstract**
 
-Ferns and lycophytes are unique among land plants for having sporophyte (diploid) and gametophyte (haploid) generations that can grow independently of each other. 
-While most studies of fern ecology focus on the more obvious sporophytic stage, the gametophyte is critically important, as it is the sexual phase of the life cycle. 
+Ferns and lycophytes are unique among land plants in having sporophyte (diploid) and gametophyte (haploid) generations that can grow independently of each other. 
+While most studies of fern ecology focus on the more visible sporophytic stage, the gametophyte is critically important, as it is the sexual phase of the life cycle. 
 Yet, fern gametophytes have long been neglected in field studies due to their small size and cryptic morphology. 
 DNA barcoding is a powerful method that can be used to identify field-collected gametophytes to species and allow for detailed study of their ecology. 
 Here, we review the state of DNA barcoding as applied to fern gametophytes. 
@@ -94,24 +93,23 @@ First, we trace the history of DNA barcoding and how it has come to be applied t
 Next, we summarize case studies that show how DNA barcoding has been used to better understand fern species distributions, gametophyte ecology, and community ecology. 
 Finally, we propose avenues for future research using this powerful tool, including next-generation DNA sequencing for in-field identification of cryptic gametophytes.
 
-**Key words**: DNA barcoding; fern; gametophyte; MinIon; *rbcL*
+**Key words**: DNA barcoding; fern; gametophyte; MinION; *rbcL*
 
-**INTRODUCTION**
+\pagebreak
 
-Ferns and lycophytes (collectively known as pteridophytes) are unique among land plants for having sporophyte (diploid) and gametophyte (haploid) life cycle stages that can grow independently of each other, and therefore may occur separately in nature. 
-This is not the case for the other major land plant groups: in bryophytes (mosses, liverworts, and hornworts), the sporophyte is nutritionally dependent upon and physically attached to the gametophyte, whereas in seed plants, the gametophyte is either contained within the flower (female gametophyte), or does not grow into a nutritionally independent organism (male gametophyte; pollen). 
+Ferns and lycophytes (collectively known as pteridophytes) are unique among land plants in having sporophyte (diploid) and gametophyte (haploid) life cycle stages that can grow independently of each other, and therefore may occur separately in nature. 
+This is not the case for the other major land plant groups; in bryophytes (mosses, liverworts, and hornworts), the sporophyte is nutritionally dependent upon and physically attached to the gametophyte, whereas in seed plants, the gametophyte is either contained within the flower (female gametophyte), or does not grow into a nutritionally independent organism (male gametophyte; pollen). 
 For pteridophytes, however, sampling one life stage alone is not sufficient to understand the complete distribution of the organism. 
 This has critical implications for understanding the biology of ferns and lycophytes. 
 
 As the sexual stage producing gametes and undergoing fertilization, gametophytes are particularly relevant.
 However, there are two qualities of pteridophyte gametophytes that make them difficult to study: their small size (typically < 1 cm) and cryptic morphology.
-While higher taxonomic groups such as family or genus often have defining characters, gametophytes typically lack morphological characters that can be used to differentiate species [@Nayar1971\; Fig. 1].
-In some pteridophytes (most lycophytes; Ophioglossaceae; Psilotaceae; Schizaeaceae; *Stromatopteris*), the gametophytes are subterranean and achlorophyllous, making them even more cryptic and less likely to be noticed.
+While some gametophytes have morphological characters that allow them to be identified to higher taxonomic groups (i.e., family or genus), they typically lack characters that can be used to differentiate to species [@Nayar1971\; Figure 1].
+In some pteridophytes (i.e., most lycophytes and species of Ophioglossaceae, Psilotaceae, Schizaeaceae, and *Stromatopteris* Mett.), the gametophytes are subterranean and achlorophyllous, making them even more cryptic and less likely to be noticed.
 For these reasons, there is a strong tendency among ecological studies of pteridophytes to only sample sporophytes.
-In contrast, field-based studies of pteridophyte gametophytes are rare, and most of the research on pteridophyte gametophytes has been based on cultivation from spores in the laboratory.
-These have yielded insights into morphology, development, and reproduction (i.e., mating systems).
-However, laboratory studies are inevitably limited with regards to understanding natural genetic diversity, and in some cases rearing gametophytes on agar (a commonly used substrate) may result in artifacts that do not reflect natural processes [@Ranker2002].
-Similarly, inferences of biodiversity and population structure based solely on the sporophyte stage may overlook "hidden" sources of diversity present in cryptic gametophytes [@Ebihara2013; @Duffy2015; @Nitta2017\; see "Scaling up: Community ecology of fern gametophytes" below].
+Consequently, field-based studies of pteridophyte gametophytes are rare, and most of the research on pteridophyte gametophytes has been based on cultivation from spores in the laboratory.
+These studies have yielded insights into morphology, development, and reproduction (i.e., mating systems); however, laboratory studies are inevitably limited with regards to understanding natural genetic diversity, and in some cases cultivating gametophytes on agar (a commonly used substrate) may result in artifacts that do not reflect natural processes [@Ranker2002].
+Similarly, inferences of biodiversity and population structure based solely on the sporophyte stage may overlook "hidden" sources of diversity present in cryptic gametophytes [@Ebihara2013; @Duffy2015; @Nitta2017\; see "[Scaling up: Community ecology of fern gametophytes]" below].
 Therefore, sampling gametophytes directly in the field is critical for understanding a range of topics related to the biology of pteridophytes.
 
 DNA barcoding, the use of a standard, short region of DNA for species identification [@Hebert2003b], is a powerful method to enable species identification of field-collected pteridophyte gametophytes.
@@ -119,209 +117,209 @@ Since this method became available, it has revolutionized the study of pteridoph
 Here, we review the use of DNA barcoding as applied to fern gametophytes, starting with the development of the method, then discussing various case studies, and concluding with future directions. 
 Although the concepts discussed here all apply equally to ferns and lycophytes, we are not aware of any studies using DNA barcoding of lycophytes, so our discussion will focus on ferns.
 
-**INITIAL STUDIES**
+# Initial studies
 
-The earliest examples of DNA barcoding applied to fern gametophytes were proof-of-concept studies that demonstrated the viability of the method. 
-The basic approach taken by these studies is still used today: Sanger sequencing of one or more of the most frequently sequenced plastid genes in ferns (Fig. 2). 
-@Schneider2006a were the first to do so, using *rbcL* to identify a gametophyte individual that had been in cultivation for > 30 years as *Osmunda regalis* L. 
-Likewise, @Li2009a identified a single gametophyte individual kept in cultivation as a species of *Lomariopsis*. 
-In their study, @Li2009a expanded gene sampling relative to @Schneider2006a to include more rapidly evolving intergenic regions in addition to the widely sequenced, but relatively more slowly evolving, *rbcL*. 
-Despite this, they could not conclusively determine the species due to lack of sufficiently closely related reference sequences in GenBank.
-These two studies highlight some of the challenges facing DNA barcoding: 1. choice of barcode marker and 2. development of an appropriate reference library.
+The earliest research applying DNA barcoding applied to fern gametophytes were proof-of-concept studies demonstrating the viability of the method. 
+The basic approach taken by these studies is still used today: Sanger sequencing of one or more of the most frequently sequenced plastid genes in ferns (Figure 2). 
+@Schneider2006a were the first to do so, using the *rbcL* genee to identify a gametophyte individual that had been in cultivation for more than 30 years as *Osmunda regalis* L. 
+Likewise, @Li2009a identified a single gametophyte individual kept in cultivation as a species of *Lomariopsis* Fée.
+In their study, @Li2009a expanded the gene sampling used by @Schneider2006a to include more rapidly evolving intergenic regions in addition to the widely sequenced, but relatively more slowly evolving, *rbcL*. 
+Despite this, they could not conclusively determine the species due to a lack of sufficiently closely related reference sequences in GenBank.
+These two studies highlight two of the primary challenges facing DNA barcoding: (1) the choice of barcode marker and (2) the development of an appropriate reference library.
 
-**CHOOSING A BARCODE MARKER**
+# Choosing a barcode marker
 
-The power of DNA barcoding lies in its universality: the ability to sequence a standard region of DNA and use this for identification of (theoretically) any unknown organism. 
-The choice of mitochondrial *COI* as a universal barcode marker for animals was quickly adopted because this marker can be reliably sequenced across a broad phylogenetic range and tends to show high discrimination power at the species level [@Hebert2003a; @Hebert2003b]. 
+The power of DNA barcoding lies in its universality; it allows a standard DNA region to be sequenced and used for the identification of (theoretically) any unidentified organism.
+The mitochondrial *COI* gene was quickly adopted as a universal barcode marker for animals because it can be reliably sequenced across a broad phylogenetic range and tends to show high discrimination power at the species level [@Hebert2003a; @Hebert2003b].
 However, the quest for a similar universal barcode marker in plants has proven to be much more difficult [@Hollingsworth2011]. 
-As a practical matter, *rbcL* was already the most commonly sequenced marker in plants, and an obvious strong candidate. 
-However, *rbcL* has a relatively slow rate of evolution at the species level (particularly in angiosperms), and cannot be used to distinguish between species in many cases. 
-From the period spanning the establishment of the Consortium of the Barcode of Life (CBOL) project in 2004 to the early 2010s, a series of studies debated various combinations of candidate barcodes to use across all plants [@Chase2005; @Kress2005; @Newmaster2006; @Chase2007; @Kress2007a; @Taberlet2007; @Lahaye2008; @Chen2010; @Hollingsworth2011a]. 
-A two-barcode system was eventually established based on *rbcL* and *matK* [@Group2008], but due to a rearrangement of the chloroplast in the ancestor of ferns, no universal primers are available that work for *matK* across all ferns [although multiple *matK* primer sets have been developed that in total work across ferns\; @Kuo2011], and studies continued within ferns to find a set of suitable markers for this group of plants.
+*rbcL* was already the most commonly sequenced marker in plants, and therefore a strong candidate. 
+However, *rbcL* has a relatively slow rate of evolution at the species level (particularly in angiosperms) and, in many cases, cannot be used to distinguish between species.
+From the period spanning the establishment of the Consortium for the Barcode of Life (CBOL) project in 2004 to the early 2010s, a series of studies debated various combinations of candidate barcodes to use across all plants [@Chase2005; @Kress2005; @Newmaster2006; @Chase2007; @Kress2007a; @Taberlet2007; @Lahaye2008; @Chen2010; @Hollingsworth2011a]. 
+A two-barcode system was eventually established based on *rbcL* and *matK* [@Group2008], but due to a rearrangement of the chloroplast in the ancestor of ferns, no universal primers are available that work for matK across all ferns [although multiple *matK* primer sets have been developed that work across ferns when used in combination\; @Kuo2011], and researchers continued to search for a set of suitable markers for this group of plants.
 
 @Ebihara2010 tested three regions based on sampling the fern flora of Japan, and suggested *rbcL* and the *trnH-psbA* intergenic spacer. 
-@Li2011 showed that *trnH-psbA* is a poor choice due to its decelerated rate of evolution in most groups of ferns [@Li2016b]. 
-Rather, @Li2011 recommended *rbcL* and *matK* as a core set of fern barcodes, with the *trnLF* spacer, which also has high rates of evolution, as an alternate for *matK*.
-The *trnLF* spacer showed high performance in both amplification success and power to discriminate species in the ferns of Europe [@DeGroot2011a] and vittarioid ferns in East Asia [@Chen2013a]. 
-Recently, @Nitta2020c compared rates of interspecific variation in *rbcL* in three fern floras (French Polynesia, Costa Rica, and Japan), and found that this marker had a higher identification failure rate in continental areas (Costa Rica and Japan) relative to the isolated islands of French Polynesia, which they attributed to the possibilty of higher rates of *in-situ* speciation in continental regions vs. long-distance dispersal in remote oceanic islands. 
+However, @Li2011 showed that *trnH-psbA* is a poor choice due to its decelerated rate of evolution in most groups of ferns [@Li2016b]. 
+Instead, @Li2011 recommended *rbcL* and *matK* as a core set of fern barcodes, with the *trnL-F* spacer, which also has high rates of evolution, as an alternate for *matK*.
+The *trnL-F* spacer performed well in terms of both amplification success and power to discriminate species in the ferns of Europe [@DeGroot2011a] and vittarioid ferns in East Asia [@Chen2013a]. 
+Recently, @Nitta2020c compared rates of interspecific variation in *rbcL* in three fern floras (French Polynesia, Costa Rica, and Japan), and found that this marker had a higher identification failure rate in continental areas (Costa Rica and Japan) compared with the isolated islands of French Polynesia, which they attributed to the possibility of higher rates of in situ speciation in continental regions vs. long-distance dispersal in remote oceanic islands.
 This highlights the need to consider biogeography in DNA barcoding of fern gametophytes, at least when the provenance of specimens is known.
 
-Although @Li2011 demonstrated that *matK* is a strong candidate as a second DNA barcode marker in ferns, their recommendation was predicated on the development of additional primers for this region, but in the decade since, there has been no development of a single set of universal *matK* primers in ferns [@Kuo2011]. 
-Rather, most studies have taken an ad-hoc approach, sampling genes and constructing reference libraries that make sense for the purpose of each study, while typically including *rbcL*. 
-We thus consider DNA barcoding in ferns in the broad sense (use of DNA sequences to identify cryptic gametophytes), and do not limit our discussion to any particular "official" barcode.
+Although @Li2011 demonstrated that *matK* is a strong candidate as a second DNA barcode marker in ferns, their recommendation was predicated on the development of additional primers for this region; in the decade since, however, there has been no development of a single set of universal *matK* primers in ferns [@Kuo2011]. 
+Most studies have instead taken an ad-hoc approach, sampling genes and constructing reference libraries that can be applied to individual studies, while typically including *rbcL*. 
+We thus consider DNA barcoding in ferns in the broad sense (i.e., the use of DNA sequences to identify cryptic gametophytes), and do not limit our discussion to any particular "official" barcode.
 
-**BUILDING AND USING A REFERENCE LIBRARY**
+# Building and using a reference library
 
 Equally important as choosing a barcode marker is constructing and validating the reference library.
-Typically for ferns, the reference library consists of sequences obtained from well identified sporophytes that are known to occur in the same region as the sampled gametophytes (Fig. 2).
+For ferns, the reference library typically consists of sequences obtained from well-identified sporophytes that are known to occur in the same region as the sampled gametophytes  (Figure 2).
 In some cases, species delimitation of sporophytes may be hampered by cryptic speciation and/or hybridization; such situations may require molecular species delimitation [e.g., @Pons2006; @Kekkonen2014; @Kapli2017] or molecular systematic analysis [e.g., @Murakami1999; @Ebihara2005; @Ebihara2009; @Hori2014; @Hori2018a], but a discussion of such methodologies is beyond the scope of this review.
-Prior to attempting DNA-based identification of unknown gametophytes, the barcode library should be evaluated to ensure that the selected markers are sufficiently divergent between species to allow discrimination.
+Before attempting DNA-based identification of unknown gametophytes, the barcode library should be evaluated to ensure that the selected markers are sufficiently divergent between species to allow discrimination.
 Ideally, markers should also show less variation within than between species, a disjunct known as the "barcode gap" [@Meyer2005].
-Results of the few studies that have analyzed the barcode gap in ferns vary by marker, taxonomic group, and geographic region; collectively, they do not support a clear barcode gap in ferns [@Nitta2008; @Wang2016; @Liu2018; @Trujillo-Argueta2021; but see @DeGroot2011a]. 
-Rather, these indicate that DNA barcoding is unlikely to be 100% successful in all cases; therefore, it is important to quantify the expected failure rate and/or expected undistinguishable taxa for each study. 
-As a practical matter, analyzing intraspecific variation increases the cost and effort of sequencing by multiple factors (as it requires sampling each species multiple times) and intraspecific variation is expected to be quite low in diploid, sexual taxa, especially for a slowly evolving marker like *rbcL* [@Murakami2021]. 
-Therefore, previous studies including large numbers of taxa (e.g., > 100 species) typically have characterized failure rate using primarily interspecific distances [@Ebihara2010; @Nitta2017], including multiple samples per taxon only in cases of known or putative species complexes [@Nitta2020].
+The results of the few studies that have analyzed the barcode gap in ferns vary by marker, taxonomic group, and geographic region; collectively, they do not support a clear barcode gap in ferns [@Nitta2008; @Wang2016; @Liu2018; @Trujillo-Argueta2021; but see @DeGroot2011a]. 
+Rather, these studies indicate that DNA barcoding is unlikely to be 100% successful in all cases; therefore, it is important to quantify the expected failure rate and/or number of expected undistinguishable taxa for each study. 
+It should also be noted that analyzing intraspecific variation increases the cost and effort of sequencing by multiple factors (as it requires sampling each species multiple times) and intraspecific variation is expected to be quite low in diploid, sexual taxa, especially for a slowly evolving marker like *rbcL* [@Murakami2021]. 
+Therefore, previous studies including large numbers of taxa (e.g., > 100 species) typically have characterized the failure rate using primarily interspecific distances [@Ebihara2010; @Nitta2017], including multiple samples per taxon only in cases of known or putative species complexes [@Nitta2020].
 
 After assembly and validation of the reference library, these sequences are then used to guide identification of the unknown gametophyte sequence.
-Bioinformatic methods used for identification of fern gametophytes have included BLAST [@Altschul1997] [e.g., @Nitta2017], which provides metrics indicating the probability that the two sequences are identical by chance, and phylogenetic inference [e.g., @DeGroot2011a].
-The choice of method depends on the degree of coverage of the reference library and quality of sequences.
-If the provenance of the gametophyte is unknown, it may be impossible to construct a reference library, and the only option is to conduct a BLAST search against all sequences on GenBank and/or BOLD [e.g., @Li2009a].
+Bioinformatic methods used for the identification of fern gametophytes have included BLAST [@Altschul1997] [e.g., @Nitta2017], which provides metrics indicating the probability that the two sequences are identical by chance, and phylogenetic inference [e.g., @DeGroot2011a].
+The choice of method depends on the degree of coverage of the reference library and the quality of the sequences.
+If the provenance of the gametophyte is unknown, it may be impossible to construct a reference library, and the only option is to conduct a BLAST search against all sequences on GenBank and/or the Barcode of Life Data System (BOLD) [e.g., @Li2009a].
 In such situations, insufficient sequencing of the world's extant ferns means that there may be no single exact match to the query.
-This is particularly expected in the case of long-lived sporophyteless gametophytes (see **Range expansions and long-lived sporophyteless gametophytes** below).
+This is particularly expected in the case of long-lived sporophyteless gametophytes (see "[Range expansions and long-lived sporophyteless gametophytes]" below).
 
 One challenge to identifying fern gametophytes with DNA barcoding, particularly when using chloroplast markers, is the high frequency of hybridization in ferns.
 The chloroplast is generally maternally inherited in ferns [@Gastony1992; @Vogel1998; @Kuo2018a], so it cannot provide information on the differential parentage of hybrids.
-In particular, different hybrid taxa sharing a maternal progenitor will have identical cholorplast genomes, so these cannot be identified with plastid markers.
-A simple % identity or e-value cutoff in BLAST will not work in such situations---not only must the query sequence match the target above some threshold, but also it should not match multiple targets simultaneously.
-@Nitta2017 implemented an algorithm that identified gametophytes using cutoff values that took such conditions into account, and this approach could be used in other regional studies that include a reference library (Fig. 2).
-Alternatively, bi-parentally inherited markers from the nucleus could be used instead, but these are both technically more challenging to generate sequence data (PCR is typically much more successful for plastid markers) and to bioinformatically process due to having multiple sequences per individual.
+In particular, different hybrid taxa sharing a maternal progenitor will have identical chloroplast genomes, so these cannot be identified using plastid markers.
+A simple percentage identity or *E*-value cutoff in BLAST will not work in such situations because the query sequence not only must match the target above a particular threshold, but also should not match multiple targets simultaneously.
+@Nitta2017 implemented an algorithm that identified gametophytes using cutoff values that took such conditions into account, and this approach could be used in other regional studies that include a reference library (Figure 2).
+Alternatively, biparentally inherited markers from the nucleus could be used instead, but these are technically more challenging both to generate sequence data (PCR is typically much more successful for plastid markers) and to bioinformatically process due to having multiple sequences per individual.
 
-**RANGE EXPANSIONS AND LONG-LIVED SPOROPHYTELESS GAMETOPHYTES**
+# Range expansions and long-lived sporophyteless gametophytes
 
 A major application of DNA barcoding in ferns has been documenting the distribution of disjunct populations of fern gametophytes relative to their sporophytic counterparts [reviewed in @Pinson2016a].
-The ability of fern gametophytes to grow spatially separated from sporophytes reaches an extreme in long-lived sporophyteless species, whereby disjunct populations of gametophytes exist without sexual reproduction or recruitment from spores well beyond the geographic extent of sporophyte producing populations [obligate independent gametophytes *sensu* @Kuo2017b].
-This was first documented in temperate Eastern North American forests in otherwise typically tropical lineages, including vittarioid ferns and filmy ferns [@Farrar1967]. 
+The ability of fern gametophytes to grow spatially separated from sporophytes reaches an extreme in long-lived sporophyteless species, whereby disjunct populations of gametophytes exist without sexual reproduction or recruitment from spores well beyond the geographic extent of sporophyte producing populations [obligate independent gametophytes sensu @Kuo2017b].
+This was first documented in temperate Eastern North American forests in otherwise typically tropical lineages, including vittarioid ferns and filmy ferns [@Farrar1967].
 The gametophytes of these tropical lineages have distinct morphologies that allowed them to be distinguished to genus or similar higher taxonomic group.
 
 The knowledge of these obligate independent gametophyte populations in the Eastern United States made them a natural target for study when DNA barcoding became available.
-@Ebihara2008a used *rbcL* and *rps4-trnS* sequences to identify the obligate independent gametophyte of *Trichomanes* (*s.l.*) *intricatum* Farrar from the Eastern U.S. as being very closely related to *Crepidomanes schmidtianum* (Zenker ex Tasch.) K. Iwats. from Eastern Asia. 
-Although *T. intricatum* was known to belong to the predominantly tropical Hymenophyllaceae, prior to DNA sequencing, there were no suggestions that it might be most closely related to an East-Asian species. 
-Similarly, @Pinson2016 utilized four plastid genes (*atpA*, *chlN*, *rbcL*, and *rpoA*) and one nuclear gene (*DET1*) to investigate the identity of another of the Eastern North American obligate independent gametophytes, *Vittaria appalachiana* Mickel and Farrar, and concluded it was embedded within *Vittaria graminifolia* Kaulf. from Central and South America.
-Another successful identification of North American independent gametophytes was on the Pacific North Coast, where DNA barcoding revealed that *Hymenophyllum wrightii* Bosch, a primarily East Asian species only occurring rarely as a sporophyte in British Columbia, Canada, actually has abundant populations of gametophytes as far south as Washington state and as far north as Alaska [@Duffy2015].
-Finally, @Pinson2017 used *rbcL* and *rpoA* to identify independent gametophytes at a site in Broxton Rocks, GA as belonging to *Didymoglossum petersii* (A. Gray) Copel.
+@Ebihara2008a used *rbcL* and *rps4-trnS* sequences to identify the obligate independent gametophyte of *Trichomanes* (sensu lato) *intricatum* Farrar from the Eastern United States as being very closely related to *Crepidomanes schmidtianum* (Zenker ex Taschner) K. Iwats. from East Asia. 
+Although *T. intricatum* was known to belong to the predominantly tropical Hymenophyllaceae, prior to DNA sequencing there was no evidence that it was most closely related to an East Asian species. 
+Similarly, @Pinson2016 utilized four plastid genes (*atpA*, *chlN*, *rbcL*, and *rpoA*) and one nuclear gene (*DET1*) to investigate the identity of another of the Eastern North American obligate independent gametophytes, *Vittaria appalachiana* Farrar & Mickel, and concluded that it was embedded within *Vittaria graminifolia* Kaulf. from Central and South America.
+Another successful identification of North American independent gametophytes was on the Pacific North Coast, where DNA barcoding revealed that *Hymenophyllum wrightii* Bosch, a primarily East Asian species occurring only rarely as a sporophyte in British Columbia, Canada, actually has abundant populations of gametophytes as far south as Washington state and as far north as Alaska [@Duffy2015].
+Finally, @Pinson2017 used *rbcL* and *rpoA* to identify independent gametophytes at a site in Broxton Rocks, Georgia, as belonging to *Didymoglossum petersii* (A. Gray) Copel.
 
 Unraveling the origins of *T. intricatum* and *H. wrightii* spurred on the search for additional populations of independent gametophytes in East Asia.
 Additional independent vittarioid gametophytes have been found in Taiwan [@Kuo2017b], Korea [@Park2020; @Park2021], and Japan [@Ebihara2013; @Kuo2017b]. 
 @Lee2020 documented additional populations of *T. intricatum* and *H. wrightii* in Korea.
 Furthermore, the careful studies of @Kuo2017b and @Park2021, which included observations of gametangia, have helped to provide insights into the mechanisms suppressing functional sporophyte production in these populations.
 
-Recently, @Murakami2021 applied a new approach in the search for independent gametophytes in Japan: they specifically searched for and sampled gametophytes occurring in large, clonal mats based on the idea that these likely represent populations that have been reproducing asexually for long periods of time and are therefore good candidates for obligate independent gametophytes.
-The approach of @Murakami2021 proved successful, revealing independent populations of *Hymenophyllum mikawanum* (Seriz.) Seriz., a rare and endangered species in Japan, *Haplopteris mediosora* (Hayata) X. C. Zhang, which was previously only known in Japan from a handful of sporophyte collections and whose existence was considered doubtful, and *Antrophyum plantagineum* (Cav.) Kaulf., which had never been previously observed in Japan at all.
+Recently, @Murakami2021 applied a new approach in the search for independent gametophytes in Japan; they specifically searched for and sampled gametophytes occurring in large, clonal mats based on the idea that these likely represent populations that have been reproducing asexually for long periods of time and are therefore good candidates for obligate independent gametophytes.
+This approach proved successful, revealing independent populations of *Hymenophyllum mikawanum* (Seriz.) Seriz., a rare and endangered species in Japan, *Haplopteris mediosora* (Hayata) X. C. Zhang, which was previously only known in Japan from a handful of sporophyte collections and whose existence was considered doubtful, and *Antrophyum plantagineum* (Cav.) Kaulf., which had not previously been observed in Japan.
 
-Finally, the study of @Chen2019b demonstrates the importance of the reference library in conducting DNA barcoding of fern gametophytes: although @Kuo2017b could not confidently identify the obligate independent gametophyte population in Taiwan to species due to a lack of sufficiently similar reference sequences, @Chen2019b later sequenced additional sporophytes and were able to confirm the identity of the gametophyte population as *Haplopteris capillaris* (Copel.) C. W. Chen, S. Linds. & K. T. Yong.
+Finally, @Chen2019b demonstrated the importance of the reference library in conducting DNA barcoding of fern gametophytes.
+Although @Kuo2017b could not confidently identify an obligate independent gametophyte population in Taiwan to species due to a lack of sufficiently similar reference sequences, @Chen2019b later sequenced additional sporophytes and were able to confirm the identity of the gametophyte population as *Haplopteris capillaris* (Copel.) C. W. Chen, S. Linds. & K. T. Yong.
 
-**SCALING UP: COMMUNITY ECOLOGY OF FERN GAMETOPHYTES**
+# Scaling up: Community ecology of fern gametophytes
 
 Beyond identifying individual populations of gametophytes, some DNA barcoding studies have sought to compare community-level diversity between gametophytes and sporophytes. 
-Since gametophytes have the ability to occur over wider ranges and only produce sporophytes within a portion of that range, it is possible that community structure may vary between the two life stages. 
+Because gametophytes are able to occur over wider ranges and only produce sporophytes within a portion of that range, it is possible that community structure may vary between the two life stages. 
 Although DNA barcoding is a powerful tool to test this hypothesis, it has only been utilized a small number of times. 
 
-@Ebihara2013 leveraged nearly complete sampling of *rbcL* of the ferns of Japan to conduct DNA barcoding surveys of gametophytes at multiple plots scattered throughout the country. 
+@Ebihara2013 leveraged nearly complete sampling of *rbcL* of Japanese ferns to conduct DNA barcoding surveys of gametophytes at multiple plots scattered throughout the country. 
 Importantly, @Ebihara2013 developed new methods for surveying communities of unidentified fern gametophytes. 
-To quantify community-level diversity while maintaining sampling effort across sites, @Ebihara2013 developed a quadrat system as follows: preliminary surveys were first conducted to identify habitats harboring gametophytes, then a square 0.25 m^2^ quadrat subdivided into 25 10 x 10 cm squares was established using a garden net. 
+To quantify community-level diversity while maintaining sampling effort across sites, @Ebihara2013 developed a quadrat system as follows: preliminary surveys were first conducted to identify habitats harboring gametophytes, then a square 0.25-m^2^ quadrat subdivided into 25 10 x 10-cm squares was established using a garden net. 
 A single gametophyte individual, if present, was sampled from the point nearest the center of each square of the net, then cut in half. 
 One half was kept as a voucher and the other used for DNA barcoding. 
 Using this method @Ebihara2013 showed that gametophytes with non-cordate morphologies, like those of the well-known North American independent gametophytes, tend to occur at large distances from sporophytes within the context of the Japanese fern flora. 
-They also found three more taxa of independent gametophytes (two in *Hymenophyllum*, one in *Lomariopsis*) that lacked sporophyte counterparts in Japan. 
+They also found three more taxa of independent gametophytes (two in *Hymenophyllum* Sm., one in *Lomariopsis*) that lacked sporophyte counterparts in Japan. 
 
-@Nitta2017 used the same quadrat sampling method as @Ebihara2013 to sample fern gametophytes and compare the community structure of gametophytes and sporophytes along an elevational gradient from ca. 200 m to 2,000 m on the islands of Moorea and Tahiti, French Polynesia. 
+@Nitta2017 used the same quadrat sampling method as @Ebihara2013 to sample fern gametophytes and compare the community structure of gametophytes and sporophytes along an elevational gradient from ca. 200 m to 2,000 m on the islands of Mo’orea and Tahiti, French Polynesia. 
 They used *rbcL* as a primary barcode marker with *trnH-psbA* as a secondary marker. 
 Although *trnH-psbA* has lower discrimination power than other markers, it is easy to amplify, and proved useful in some cases when amplification of *rbcL* failed.
 Interestingly, @Nitta2017 highlighted a challenge to this type of community survey: they observed far fewer species as gametophytes than sporophytes, and the distribution of gametophyte individuals was dominated by a small number of very common species, with a long tail of rare species. 
-This is in contradiction to the expectation that there should be at least as many species in the gametophyte phase as sporophytes, and may be due to skewed abundance distribution or seasonality in spore germination. 
+This is in contradiction to the expectation that there should be at least as many species in the gametophyte phase as in the sporophyte phase, and may be due to skewed abundance distribution or seasonality in spore germination.
 @Nitta2017 therefore used a reduced dataset only including species that had been observed at least once in each life stage across the elevational gradient to compare gametophyte and sporophyte community composition.
-This revealed that community structure does differ between fern sporophytes and gametophytes: sporophyte communities became increasingly phylogenetically clustered at high elevations, while gametophytes did not show any significant change in phylogenetic structure with elevation.
+This revealed that community structure differed between fern sporophytes and gametophytes, with sporophyte communities becoming increasingly phylogenetically clustered at high elevations, while gametophytes did not show any significant change in phylogenetic structure with elevation.
 
 Indeed, the expectation of greater species richness in the gametophyte phase was borne out by the study of @Kuo2014, who carried out exhaustive sampling of gametophytes throughout one year at a single site in Taiwan. 
 They did this by establishing six subplots side-by-side and exhaustively sampling the subplots once every two months, then comparing the observed gametophyte diversity with the diversity of sporophytes at the site. 
 This demonstrates that careful sampling is needed to accurately compare community-level diversity between fern sporophytes and gametophytes.
 
-**OTHER ECOLOGICAL STUDIES**
+# Other ecological studies
 
 Non-molecular studies of fern gametophyte ecology have relied on methods such as tracing the ontology from sporophyte back to gametophyte, or targeting taxa with unique morphological characters (e.g., presence of certain types of glandular hairs) that can be used for species-level identification at a particular site [e.g., @Lagomarsino2012; @Testo2014a; @Watkins2019; @Watts2019].
 Such methods, while simple and useful, are inherently limited in the number of species that can be studied.
-DNA barcoding of fern gametophytes clearly has the potential to enable study of a much broader range of taxa, and by extension, ecological phenomena.
+DNA barcoding of fern gametophytes clearly has the potential to enable the study of a much broader range of taxa and, by extension, ecological phenomena.
 The morphological and ecological characteristics of the sampled individuals can be used to study various aspects of their biology once their taxonomic identity is known.
 As with community ecology, such studies are still limited in number, but demonstrate the great potential for this approach.
 
-@Nitta2009 used DNA barcoding to confirm the identity of gametophytes of *Vandenboschia collariata* (Bosch) Ebihara & Dubuisson, a hemi-epiphytic filmy fern from Costa Rica. 
+@Nitta2009 used DNA barcoding to confirm the identity of gametophytes of *Vandenboschia collariata* (Bosch) Ebihara & K. Iwats., a hemi-epiphytic filmy fern from Costa Rica. 
 Hemi-epiphytes are often poorly documented---typically, only a portion of the adult plant may be sampled from the host tree---so it is often unknown whether they are primary hemi-epiphytes, which start on the ground and climb up the tree, or secondary hemi-epiphytes, which start on the tree and send roots to the ground.
 @Nitta2009 sampled gametophytes and observed juvenile sporophytes at the base of host trees, which confirmed the status of *V. collariata* as a primary hemi-epiphyte. 
 The overall prevalence of primary vs. secondary hemi-epiphytism is still unknown for ferns generally. 
-Since epiphytes are a major component of fern diversity, accounting for ca. 30% of extant fern species, and hemi-epiphytism was likely a involved in the evolution of epiphytism, the approach of @Nitta2009 could help provide insights into the transition from terrestrial to epiphytic growth in ferns.
+Because epiphytes are a major component of fern diversity, accounting for ca. 30% of extant fern species, and hemi-epiphytism was likely involved in the evolution of epiphytism, the approach of @Nitta2009 could help provide insights into the transition from terrestrial to epiphytic growth in ferns.
 
-@Ebihara2019a expanded on the results of @Ebihara2013 to conduct long-term monitoring of a population of *Pleurosoriopsis makinoi* (Maxim. ex Makino) Fomin gametophytes in Japan. 
+@Ebihara2019a expanded on the results of @Ebihara2013 by conducting long-term monitoring of a population of *Pleurosoriopsis makinoi* (Maxim. ex Makino) Fomin gametophytes in Japan. 
 The survey of @Ebihara2013 identified a population of *P. makinoi* gametophytes growing in a site without any sporophytes nearby. 
-@Ebihara2019a then monitored growth of the population for 5 years and compared microclimate of the gametophyte population with that of a site supporting sporophytes. 
+@Ebihara2019a then monitored the growth of the population for five years and compared the microclimate of the gametophyte population with that of a site supporting sporophytes.
 They showed that the gemmae of the gametophytes have seasonal periods of growth, growing in size and number during the spring and summer, and detaching during the winter. 
 The microclimate analysis suggested that a possible cause of sporophyte suppression was low light in winter due to the planting of evergreen conifers. 
-Long-term monitoring of other populations with individuals indetified by DNA barcoding would greately contribute to our understanding of population dynamics and recruitment in ferns.
+Long-term monitoring of other populations with individuals identified by DNA barcoding would greatly contribute to our understanding of population dynamics and recruitment in ferns.
 
 Other studies have also built upon previous DNA barcoding results to better understand fern ecology.
-@Nitta2020 and @Nitta2021 both leveraged the DNA barcoding results of fern gametophytes on the islands of Moorea and Tahiti by @Nitta2017.
+@Nitta2020 and @Nitta2021 both leveraged the DNA barcoding results of fern gametophytes on the islands of Mo’orea and Tahiti by @Nitta2017.
 @Nitta2020 scored morphological traits including morphotype and presence of hairs, glands, and gemmae in the gametophytes surveyed by @Nitta2017, then included these trait data in a comparison of the functional community structure of terrestrial vs. epiphytic fern communities. 
 They found that epiphytic fern communities were more functionally diverse than terrestrial communities, despite the generally harsher (drier) conditions of the canopy. 
 Additional studies of fern gametophyte morphological and physiological traits with species identified by DNA barcoding could provide even greater insight into the processes governing community assembly of epiphytic and terrestrial fern communities. 
 
-@Nitta2021 took a unique approach which we are not aware has been used by any other study: in order to compare adaptations to water stress between terrestrial and epiphytic filmy ferns, they conducted desiccation tolerance assays on gametophytes of unknown species at the field station where they conducted their field survey, then later identified the individuals to species using DNA barcoding in the lab. 
-This resulted in rather skewed sampling numbers for some species (e.g., the most common species, *Callistopteris apiifolia* (Presl) Copel. was sampled > 50 times, whereas rarer species were sampled only a few times or even just once each), but allowed them to sample a broad range of taxa without the need for cultivation of gametophytes from spores, which are often slow growing and may require > 1 year to attain enough material for physiological tests [@Holloway1930]. 
+@Nitta2021 took a unique approach that, to our knowledge, has not been used in any other study. 
+To compare adaptations to water stress between terrestrial and epiphytic filmy ferns, they conducted desiccation tolerance assays on gametophytes of unknown species at the field station where they conducted their field survey, then later identified the individuals to species using DNA barcoding in the lab. 
+This resulted in rather skewed sampling numbers for some species (e.g., the most common species, *Callistopteris apiifolia* (Presl) Copel. was sampled > 50 times, whereas rarer species were sampled only a few times or even just once each), but allowed them to sample a broad range of taxa without the need for cultivation of gametophytes from spores, which are often slow growing and may require over a year to attain enough material for physiological tests [@Holloway1930]. 
 One of the most surprising results of this study was that the gametophytes of *C. apiifolia*, which had by far the broadest distribution compared to other species, were incapable of tolerating even slight amounts of desiccation. 
-Rather, @Nitta2021 hypothesize that *C. apiifolia* gametophytes exploit small, well-protected microhabitats at the bases of rocks and trees to avoid desiccation and thus attain a broader geographic range than conspecific sporophytes.
-This points to the importance of microhabitat for understanding the distribution of fern gametophytes, which has also been supported by the finding of wide intraspecific variation in desiccation tolerance in vittarioid gametophytes mirroring variation in their environmental conditions [@Stevens2015; @Chambers2016; @Chambers2017].
+Rather, @Nitta2021 hypothesized that *C. apiifolia* gametophytes exploit small, well-protected microhabitats at the bases of rocks and trees to avoid desiccation and thus attain a broader geographic range than conspecific sporophytes.
+This highlights the importance of microhabitat for understanding the distribution of fern gametophytes, which has also been supported by the finding of wide intraspecific variation in desiccation tolerance in vittarioid gametophytes mirroring variation in their environmental conditions [@Stevens2015; @Chambers2016; @Chambers2017].
 
-**ADVANCES IN DNA SEQUENCING TECHNOLOGY**
+# Advances in DNA sequencing technology
 
-There have been no published studies applying next-generation DNA sequencing to identification of fern gametophytes, to our knowledge.
-Incorporating next-gen methods will offer two major benefits: the ability to generate much more data far more cheaply (in price per base) than Sanger sequencing, and the possibility to obtain DNA sequences while in the field.
+To our knowledge, there have been no published studies applying next-generation DNA sequencing to the identification of fern gametophytes.
+Incorporating next-generation sequencing methods will offer two major benefits: the ability to generate much more data far more cheaply (in price per base) than Sanger sequencing, and the possibility to obtain DNA sequences while in the field.
 
-The rapid development of next-generation sequencing platforms and technologies has resulted in an ability to sequence millions of base pairs at a time. 
+The rapid development of next-generation sequencing platforms and technologies has resulted in an ability to sequence millions of base pairs simultaneously.
 In addition, bioinformatic and computational tools have made it possible to pool several samples into a single lane of sequencing, thereby greatly reducing overall sequencing costs relative to traditional Sanger methods. 
-Unfortunately, the application of these technological advancements with respect to metabarcoding studies has been limited because these sequencing platforms generate reads between 300 and 500 bp. 
-This is too short a fragment for barcoding research in ferns, as many of the utilized loci well exceed these limits. 
+Unfortunately, the application of these technological advancements with respect to metabarcoding studies has been limited because these sequencing platforms generate reads between 300 and 500 bp; these fragment sizes are too short for barcoding research in ferns, as many of the utilized loci well exceed these limits.
 Furthermore, successful identification often requires sequencing more than one barcode locus, and Sanger sequencing does not scale well to large numbers of individuals or loci.
 Recently, @Gostel2020 developed a metabarcoding methodology that overcomes some of these limitations. 
-Utilizing a Fluidigm Access Array, they were able to conduct simultaneous PCR reactions on 96 samples spanning the four major land plant lineages, using 12 primer pairs to amplify four commonly used barcoding loci (*rbcL*, *matK*, *trnH-psbA*, and *ITS*). 
-Reactions were then pooled, cleaned, and sequenced on an Illumina MiSeq, and the reads were trimmed, filtered, then mapped to barcode reference sequences spanning the plant tree of life. 
+Utilizing a Fluidigm Access Array, they were able to conduct simultaneous PCR reactions on 96 samples spanning the four major land plant lineages, using 12 primer pairs to amplify four commonly used barcoding loci (*rbcL*, *matK*, *trnH-psbA*, and ITS). 
+Reactions were then pooled, cleaned, and sequenced on an Illumina MiSeq, and the reads were trimmed, filtered, and mapped to barcode reference sequences spanning the plant tree of life. 
 Of the four loci examined, *rbcL* and *trnH-psbA* had the highest number of reads per sample for ferns.
 This protocol may be especially useful when trying to identify fern gametophytes within a community using DNA barcoding as it ultimately saves time and money when a large number of individuals need to be sequenced.
-However, although microfluidic PCR enables high-throughput multi-locus sequence generation, this method alone cannot overcome the read-length limitations of Illumina platforms (currently ca. maximum of 300bp on MiSeq), and the sequences generated by @Gostel2020 for long (>1000 bp) regions like *matK* included gaps in the middle.
+However, although microfluidic PCR enables high-throughput multi-locus sequence generation, this method alone cannot overcome the read-length limitations of Illumina platforms (currently a maximum of ca. 300 bp on MiSeq), and the sequences generated by @Gostel2020 for long (>1000 bp) regions like *matK* included gaps in the middle.
 Platforms such as PacBio that can generate much longer reads have been used for amplicon sequencing of COI barcodes in insects [@Hebert2018; @DErcole2021] and disentangling multiple nuclear alleles in ferns [@Rothfels2017]; one promising future direction is to combine high-throughput PCR with long-read technologies to obtain full-length barcode sequences from multiple markers for thousands of individuals at once.
 
-The future of DNA barcoding in ferns will incorporate technological advances to allow for greater sequencing efficiency and ability to conduct research while still in the field.
-Specifically, most of the previous studies have required the collection of gametophytes from the field, followed by transportation back to the lab for sequencing and subsequent identification via standard Sanger sequencing protocols.
+The future of DNA barcoding in ferns will incorporate technological advances to allow for greater sequencing efficiency and the ability to conduct research while still in the field.
+Specifically, most previous studies have required gametophytes collected in the field be transported back to the lab for sequencing and subsequently identified via standard Sanger sequencing protocols.
 While useful, and clearly powerful, this approach may not be ideal given the time, budgetary, and logistical constraints associated with field travel, especially in international contexts.
 The remote nature of field work also complicates the feasibility of many studies, as many locations lack a field station with the necessary lab equipment and reagents. 
 
-A particularly exciting avenue for the future of DNA barcoding in ferns in the field involves the use of a relatively new portable sequencing system. 
-The MinIon Mk1B (Oxford Nanopore Technologies) is a powerful, portable sequencer that can successfully sequence entire communities [@Mafune2020], and generate long-read sequences [@Li2018c; @Kuo2019a]. 
+A particularly exciting avenue for the future of DNA barcoding of ferns in the field involves the use of a relatively new portable sequencing system.
+The MinION Mk1B (Oxford Nanopore Technologies, Oxford, United Kingdom) is a powerful, portable sequencer that can successfully sequence entire communities [@Mafune2020], and generate long-read sequences [@Li2018c; @Kuo2019a]. 
 Recent studies have taken advantage of the portability of this instrument by taking it into the field to effectively conduct real-time DNA barcoding studies in both tropical and temperate communities [@Parker2017; @Pomerantz2018]. 
-@Srivathsan2018 found that roughly 500 barcodes can be accurately identified within about two hours of sequencing time, with an identification success rate ranging from 99-100% after the implementation of their barcoding strategy and analytical pipeline.
+@Srivathsan2018 accurately identified roughly 500 barcodes within about two hours of sequencing time, with an identification success rate ranging from 99–100% after the implementation of their barcoding strategy and analytical pipeline.
 
-Although the MinIon sequencer is portable and powerful, DNA barcoding still requires the use of many lab instruments and reagents to extract DNA and amplify the targeted genomic region. 
+Although the MinION sequencer is portable and powerful, DNA barcoding still requires the use of many lab instruments and reagents to extract DNA and amplify the targeted genomic region. 
 Simplification of the workflow would enable more rapid identification.
-Fern gametophytes may be an ideal study system in this case, as PCR can be performed directly using the thallus tissue of fern gametophytes (TD-PCR). 
-This technique, originally published by @Li2009, involves the application of PCR reagents directly to tubes containing small amounts of thallus tissue. 
-To determine the ideal protocol for amplification of the plastid *trnL-L-F* locus, the authors tested various chemical and mechanical methods to either increase PCR success or the lysis of cells. 
+Fern gametophytes may be an ideal study system in this case, as PCR can be performed directly using the thallus tissue of fern gametophytes (i.e., tissue-direct PCR [TD-PCR]).
+This technique, originally published by @Li2009, involves the application of PCR reagents directly to small amounts of thallus tissue.
+To determine the ideal protocol for amplification of the plastid *trnL-L-F* locus, the authors tested various chemical and mechanical methods to increase either PCR success or cell lysis.
 Their results indicated that chemical and mechanical manipulation increased PCR success among most of the examined fern gametophytes. 
 They also found that amplifying each reaction twice (running a first round of PCR, followed by a second round using the first-round PCR product as template) greatly increased amplification success. 
-Recently, Wu and Kuo (in this issue) further refined the protocol published by @Li2009 by redesigning *trnL-L-F* primers to be universal across ferns and improving the tissue disruption step.
+Recently, @Wu2022 further refined the protocol published by @Li2009 by redesigning *trnL-L-F* primers to be universal across ferns and improving the tissue disruption step.
 They also used their improved TD-PCR protocol to reveal additional obligate independent gametophytes in Taiwan belonging to *Lomariopsis*.
-If tissue-direct methods could be combined with MinIon sequencing, it may become possible to conduct rapid, high-throughput DNA barcoding of fern gametophytes in the field, potentially providing much greater insight into the structure of fern gametophyte communities.
+If TD-PCR could be combined with MinION sequencing, it may become possible to conduct rapid, high-throughput DNA barcoding of fern gametophytes in the field, potentially providing much greater insight into the structure of fern gametophyte communities.
 
-**DISCUSSION** 
+# Summary
 
 The study of fern ecology has long been hampered by the inability to investigate fern gametophytes in the field. 
-While fern gametophytes were previously regarded as an "achilles heel" that limited dispersal due to the requirement of water for fertilization [@Page2002], or as being too morphologically plastic to be useful for systematics [@Bower1923], recently there is a much greater appreciation for both their ecological importance and status as a worthy topic of study. 
-The potential for DNA barcoding to identify fern gametophytes to species has both fueled this interest and opened up previously inaccessible avenues for research.
+Although fern gametophytes were previously regarded as an "Achilles' heel" that limited dispersal due to the requirement of water for fertilization [@Page2002], or as being too morphologically plastic to be useful for systematics [@Bower1923], recent research has prompted a much greater appreciation for both their ecological importance and status as a worthy topic of study.
+The potential for DNA barcoding to enable species identification of fern gametophytes has simultaneously fueled this interest and opened previously inaccessible avenues for research.
 Since its inception, DNA barcoding has completely depended on Sanger sequencing of plastid markers.
-This has yielded important insights, including discovery of independent gametophyte populations and range expansions, as well as a better understanding of the role of gametophytes in community assembly and other aspects of fern ecology.
+This has yielded important insights, including the discovery of independent gametophyte populations and range expansions, as well as a better understanding of the role of gametophytes in community assembly and other aspects of fern ecology.
 Next-generation DNA sequencing methods are now poised to move the field beyond Sanger sequencing and enable high-throughput sequencing and identification of gametophytes in the field.
 The next phase of molecular ecology of fern gametophytes will undoubtedly bring new, exciting insights into these fascinating plants. 
 
-**ACKNOWLEDGMENTS**
+# Acknowledgements
 
-Li-Yaung Kuo kindly shared drafts of unpublished manuscripts and comments on an earlier version of this manuscript.
-Two anonymous reviewers provided comments that improved the manuscript.
+The authors thank Li-Yaung Kuo (National Tsing Hua University, Taiwan) for sharing drafts of unpublished manuscripts and comments on an earlier version of this manuscript, and two anonymous reviewers for providing comments that improved the manuscript.
 
-**AUTHOR CONTRIBUTIONS**
+# Author contributions
 
-J.H.N. and S.M.C. wrote the manuscript.
+J.H.N. and S.M.C. wrote and edited the manuscript and gave final approval before submission and publication.
 
-**DATA AVAILABILITY**
+# Data availability
 
-Data (photos and metadata used to create Fig. 1) and code to generate the manuscript available at https://github.com/joelnitta/gameto-barcode-review (DOI: 10.5281/zenodo.5778390).
+Supporting data (photos and metadata used to create Figure 1) and code are available at https://github.com/joelnitta/gameto-barcode-review (DOI: 10.5281/zenodo.5778390).
  
-**LITERATURE CITED**
+# References
 
 <!--FIXME: add "In Japanese" to Murakami 2021 -->
 
@@ -351,6 +349,12 @@ taxonomy <- map2_df(
     select(species = full_name_without_family_and_authors, authors)) %>%
   # There are multiple hits for H. polyanthos. Only use (Sw.) Sw.
   filter((species == "Hymenophyllum polyanthos" & authors == "(Sw.) Sw.") | species != "Hymenophyllum polyanthos") %>%
+  # Modify some authors as per ABJ
+  mutate(authors = case_when(
+    species == "Sphaeropteris medullaris" ~ "(G. Forst.) Bernh.",
+    species == "Callistopteris apiifolia" ~ "(C. Presl) Copel.",
+    TRUE ~ authors
+  )) %>%
   assert(is_uniq, species) %>%
   assert(not_na, everything())
 
@@ -375,7 +379,7 @@ left_join(photos, specimens, by = "specimenID") %>%
   left_join(fig_parts, by = "species") %>%
   assert(is_uniq, species) %>%
   assert(not_na, species, authors, specimen, part) %>%
-  mutate(caption = glue("*{species}* {authors} *{specimen}* (GH)"))
+  mutate(caption = glue("*{species}* {authors}, *{specimen}* (GH)"))
 
 # Make helper function to generate caption based on photo file
 part2cap <- function(part_select) {
@@ -389,8 +393,11 @@ part2cap <- function(part_select) {
 knitr::include_graphics(here::here("images/fig1_gametos.png"))
 ```
 
-**Figure 1.** Examples of fern gametophytes identified using DNA barcoding [@Nitta2017]: (A--F) pairs of species with similar morphology that could not be distinguished without molecular data; (G, H) appearance of gametophytes in the field. 
-Morphotype provides a hint to taxonomy but cannot be reliably used for species identification: the cordate (heart-shaped) morphotype (A, B, H) is the most common, especially in terrestrial species; the filamentous morphotype (C, D) is restricted to Hymenophyllaceae and Schizaeaceae; the ribbon morphotype (E--G) typically occurs in Hymenophyllaceae, Vittariaceae, and several lineages of polypod ferns. 
+**FIGURE 1.**
+Examples of fern gametophytes identified using DNA barcoding [@Nitta2017].
+(A--F) Pairs of species with similar morphology that could not be distinguished without molecular data.
+(G, H) Images of gametophytes in the field.
+In (A--F), morphotype provides a hint to taxonomy but cannot be reliably used for species identification: the cordate (heart-shaped) morphotype (A, B, H) is the most common, especially in terrestrial species; the filamentous morphotype (C, D) is restricted to Hymenophyllaceae and Schizaeaceae; the ribbon morphotype (E--G) typically occurs in Hymenophyllaceae, Vittariaceae, and several lineages of polypod ferns. 
 (A) `r part2cap("A")`.
 (B) `r part2cap("B")`.
 (C) `r part2cap("C")`.
@@ -400,8 +407,8 @@ Morphotype provides a hint to taxonomy but cannot be reliably used for species i
 (G) `r part2cap("G")`.
 (H) `r part2cap("H")`.
 Herbarium codes follow @Thiers2021.
-For (A--F) scalebars all 1 mm; photos taken under a dissecting microscope.
-All photos by J. H. Nitta.
+For (A–F), scale bars all 1 mm; photos taken under a dissecting microscope.
+All photos by J. H. Nitta; (G, H) reproduced with permission from @Nitta2020.
 
 `r pagebreak_pdf()`
 
@@ -410,10 +417,11 @@ All photos by J. H. Nitta.
 knitr::include_graphics(here::here("images/fig2_workflow.png"))
 ```
 
-**Figure 2.** Generalized workflow for DNA barcoding of fern gametophytes. 
-The first step is to assemble a reference library of DNA sequences for a marker of interest (e.g., *rbcL*) using well-identified sporophytes from the study area; or, if this is not possible (e.g., if the provenance of the gametophyte is unknown), public databases such as GenBank or BOLD may be used instead. 
+**FIGURE 2.**
+Generalized workflow for DNA barcoding of fern gametophytes. 
+The first step is to assemble a reference library of DNA sequences for a marker of interest (e.g., *rbcL*) using well-identified sporophytes from the study area; if this is not possible (e.g., if the provenance of the gametophyte is unknown), public databases such as GenBank or BOLD may be used instead. 
 Next, DNA sequences are obtained from the unknown gametophyte and queried against the reference library using BLAST. 
 Finally, an algorithm is used to sort results into successful identifications or failures based on a percent-identity cutoff (the value used in the figure is an arbitrary example). 
-Other approaches may be used to match the unknown gametophyte to a reference such as phylogenetic analysis (see **Building and using a reference library**). 
+Other approaches, such as phylogenetic analysis, may be used to match the unknown gametophyte to a reference (see "[Building and using a reference library]"). 
 Gametophyte image and sporophyte silhouette (A) provided courtesy of Emily Sessa and used with permission.
 Sporophyte silhouettes (B, C) provided courtesy of Eric Schuettpelz and used with permission.

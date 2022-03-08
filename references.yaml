@@ -15,6 +15,7 @@ references:
     given: Webb
   - family: Lipman
     given: David J.
+  citation-key: Altschul1997
   container-title: Nucleic Acids Research
   DOI: 10.1093/nar/25.17.3389
   issued:
@@ -29,6 +30,7 @@ references:
   author:
   - family: Bower
     given: Frederick
+  citation-key: Bower1923
   event-place: Cambridge
   issued:
   - year: 1923
@@ -42,12 +44,13 @@ references:
     given: Sally M.
   - family: Emery
     given: N. C.
+  citation-key: Chambers2016
   container-title: American Journal of Botany
   DOI: 10.3732/ajb.1500077
   ISSN: 0002-9122
   issued:
   - year: 2016
-  page: 1-13
+  page: 86-98
   title: Population differentiation and countergradient variation throughout the geographic
     range in the fern gametophyte *Vittaria appalachiana*
   type: article-journal
@@ -65,6 +68,7 @@ references:
     given: J. E.
   - family: Sessa
     given: Emily B.
+  citation-key: Chambers2017
   container-title: American Journal of Botany
   container-title-short: Am. J. Bot.
   DOI: 10/f96g2d
@@ -97,6 +101,7 @@ references:
     given: 'N'
   - family: Savolainen
     given: V
+  citation-key: Chase2005
   container-title: 'Philosophical Transactions of the Royal Society B: Biological
     Sciences'
   ISSN: 1471-2970
@@ -150,6 +155,7 @@ references:
     given: L
   - family: Wilkinson
     given: M
+  citation-key: Chase2007
   container-title: Taxon
   issue: '2'
   issued:
@@ -181,6 +187,7 @@ references:
     given: T
   - family: Pang
     given: X
+  citation-key: Chen2010
   container-title: PLoS ONE
   ISSN: 1932-6203
   issue: '1'
@@ -210,6 +217,7 @@ references:
     given: Donald R
   - family: Chiou
     given: Wen-Liang
+  citation-key: Chen2013a
   container-title: Annals of Botany
   ISSN: 1095-8290
   issue: '4'
@@ -242,6 +250,7 @@ references:
     given: Viet Dai
   - family: Huang
     given: Yao-Moan
+  citation-key: Chen2019b
   container-title: Systematic Botany
   container-title-short: Systematic Botany
   DOI: 10/gmd4h2
@@ -275,6 +284,7 @@ references:
     given: Johannes C
   - family: Erkens
     given: Roy H. J.
+  citation-key: DeGroot2011a
   container-title: PLoS ONE
   DOI: 10.1371/journal.pone.0016371
   ISSN: 1932-6203
@@ -299,6 +309,7 @@ references:
     given: Sean W.J.
   - family: Hebert
     given: Paul D.N.
+  citation-key: DErcole2021
   container-title: PeerJ
   DOI: 10/gmfdw4
   ISSN: 2167-8359
@@ -322,6 +333,7 @@ references:
     given: Mary C.
   - family: Farrar
     given: Donald R
+  citation-key: Duffy2015
   container-title: American Fern Journal
   DOI: 10.1640/0002-8444-105.1.45
   ISSN: 00028444
@@ -343,6 +355,7 @@ references:
     given: S
   - family: Lin
     given: Su-Juan
+  citation-key: Ebihara2005
   container-title: American Journal of Botany
   ISSN: 1537-2197
   issued:
@@ -363,6 +376,7 @@ references:
     given: Donald R
   - family: Ito
     given: M
+  citation-key: Ebihara2008a
   container-title: American Journal of Botany
   ISSN: 1537-2197
   issue: '12'
@@ -383,6 +397,7 @@ references:
     given: S
   - family: Ito
     given: M
+  citation-key: Ebihara2009
   container-title: Acta Phytotaxonomica et Geobotanica
   issue: '1'
   issued:
@@ -401,6 +416,7 @@ references:
     given: Joel H.
   - family: Ito
     given: M
+  citation-key: Ebihara2010
   container-title: PLoS ONE
   DOI: 10.1371/journal.pone.0015136
   ISSN: 1932-6203
@@ -429,6 +445,7 @@ references:
     given: Joel H.
   - family: Imaichi
     given: Ryoko
+  citation-key: Ebihara2013
   container-title: American Journal of Botany
   DOI: 10.3732/ajb.1200555
   ISSN: 1537-2197
@@ -461,6 +478,7 @@ references:
     given: Kaoru
   - family: Azakami
     given: Otowa
+  citation-key: Ebihara2019a
   container-title: Bulletin of the National Museum of Nature and Science, Series B
     (Botany), Tokyo
   issue: '2'
@@ -477,6 +495,7 @@ references:
   author:
   - family: Farrar
     given: Donald R
+  citation-key: Farrar1967
   container-title: Science
   ISSN: 1095-9203
   issue: '3767'
@@ -494,6 +513,7 @@ references:
     given: Gerald J.
   - family: Yatskievych
     given: George
+  citation-key: Gastony1992
   container-title: American Journal of Botany
   DOI: 10.1002/j.1537-2197.1992.tb14613.x
   ISSN: 1537-2197
@@ -522,6 +542,7 @@ references:
     given: Vicki A.
   - family: Puente-Lelievre
     given: Caroline
+  citation-key: Gostel2020
   container-title: Scientific Reports
   DOI: 10/gg539d
   ISSN: 2045-2322
@@ -650,7 +671,8 @@ references:
     given: D.-K.
   - family: Little
     given: D. P.
-  container-title: Proceedings of the National Academy of Sciences
+  citation-key: Group2008
+  container-title: Proceedings of the National Academy of Sciences, USA
   DOI: 10.1073/pnas.0905845106
   ISSN: 0027-8424
   issue: '31'
@@ -670,7 +692,9 @@ references:
     given: S
   - family: DeWaard
     given: J
-  container-title: Proceedings of the Royal Society of London B Biological Sciences
+  citation-key: Hebert2003a
+  container-title: 'Proceedings of the Royal Society of London, Series B: Biological
+    Sciences'
   issued:
   - year: 2003
   page: S96-S99
@@ -689,6 +713,7 @@ references:
     given: Shelley L.
   - family: deWaard
     given: Jeremy R.
+  citation-key: Hebert2003b
   container-title: Proceedings of the Royal Society of London B Biological Sciences
   DOI: 10.1098/rspb.2002.2218
   issue: '1512'
@@ -727,6 +752,7 @@ references:
     given: Jayme E.
   - family: Zakharov
     given: Evgeny V.
+  citation-key: Hebert2018
   container-title: BMC Genomics
   container-title-short: BMC Genomics
   DOI: 10/gdvpf7
@@ -751,6 +777,7 @@ references:
     given: S
   - family: Little
     given: D
+  citation-key: Hollingsworth2011
   container-title: PLoS ONE
   ISSN: 1932-6203
   issue: '5'
@@ -770,7 +797,8 @@ references:
   author:
   - family: Hollingsworth
     given: P. M.
-  container-title: Proceedings of the National Academy of Sciences
+  citation-key: Hollingsworth2011a
+  container-title: Proceedings of the National Academy of Sciences, USA
   container-title-short: Proceedings of the National Academy of Sciences
   DOI: 10/bsz26f
   ISSN: 0027-8424, 1091-6490
@@ -790,6 +818,7 @@ references:
   author:
   - family: Holloway
     given: J E
+  citation-key: Holloway1930
   container-title: Annals of Botany
   DOI: 10.1093/oxfordjournals.aob.a090218
   ISSN: 1095-8290
@@ -819,6 +848,7 @@ references:
     given: Yasuyuki
   - family: Murakami
     given: Noriaki
+  citation-key: Hori2014
   container-title: Journal of Plant Research
   DOI: 10.1007/s10265-014-0652-0
   ISSN: 0918-9440
@@ -844,6 +874,7 @@ references:
     given: Atsushi
   - family: Murakami
     given: Noriaki
+  citation-key: Hori2018a
   container-title: Acta Phytotaxonomica et Geobotanica
   issue: '2'
   issued:
@@ -878,6 +909,7 @@ references:
     given: A.
   - family: Flouri
     given: T.
+  citation-key: Kapli2017
   container-title: Bioinformatics
   container-title-short: Bioinformatics
   DOI: 10/gfzprh
@@ -905,6 +937,7 @@ references:
     given: Mari
   - family: Hebert
     given: Paul D. N.
+  citation-key: Kekkonen2014
   container-title: Molecular Ecology Resources
   container-title-short: Mol Ecol Resour
   DOI: 10/f56z2d
@@ -934,8 +967,8 @@ references:
     given: L
   - family: Janzen
     given: Daniel H
-  container-title: Proceedings of the National Academy of Sciences of the United States
-    of America
+  citation-key: Kress2005
+  container-title: Proceedings of the National Academy of Sciences, USA
   issued:
   - year: 2005
   page: 8369-8374
@@ -949,6 +982,7 @@ references:
     given: W John
   - family: Erickson
     given: David L.
+  citation-key: Kress2007a
   container-title: PLoS ONE
   ISSN: 1932-6203
   issue: '6'
@@ -970,6 +1004,7 @@ references:
     given: Wen-Liang
   - family: Wang
     given: Chun-Neng
+  citation-key: Kuo2011
   container-title: Molecular Phylogenetics and Evolution
   ISSN: '10557903'
   issue: '3'
@@ -997,6 +1032,7 @@ references:
     given: C.-N.
   - family: Chiou
     given: Wen-Liang
+  citation-key: Kuo2014
   container-title: The 6th Asian Fern Symposium
   event-place: Bali, Indonesia
   issued:
@@ -1022,6 +1058,7 @@ references:
     given: Yao Moan
   - family: Chiou
     given: Wen Liang
+  citation-key: Kuo2017b
   container-title: Journal of Plant Research
   DOI: 10.1007/s10265-016-0897-x
   ISSN: 09189440
@@ -1049,6 +1086,7 @@ references:
     given: Yao-Moan
   - family: Wang
     given: Chun-Neng
+  citation-key: Kuo2018a
   container-title: Frontiers in Plant Science
   DOI: 10.3389/fpls.2018.00486
   ISSN: 1664462X
@@ -1070,6 +1108,7 @@ references:
     given: Li-Yaung
   - family: Li
     given: Fay-Wei
+  citation-key: Kuo2019a
   container-title: American Fern Journal
   container-title-short: American Fern Journal
   DOI: 10/gkzrz7
@@ -1093,6 +1132,7 @@ references:
     given: Amanda L.
   - family: Moran
     given: R C
+  citation-key: Lagomarsino2012
   container-title: Brittonia
   issue: '2'
   issued:
@@ -1126,7 +1166,8 @@ references:
     given: T
   - family: Savolainen
     given: V
-  container-title: Proceedings of the National Academy of Sciences
+  citation-key: Lahaye2008
+  container-title: Proceedings of the National Academy of Sciences, USA
   ISSN: 1091-6490
   issue: '8'
   issued:
@@ -1148,6 +1189,7 @@ references:
     given: Kanghyup
   - family: Hwang
     given: Youngsim
+  citation-key: Lee2020
   container-title: Korean Journal of Plant Taxonomy
   container-title-short: Korean J. Pl. Taxon
   DOI: 10.11110/kjpt.2020.50.4.403
@@ -1177,6 +1219,7 @@ references:
     given: Wen-Liang
   - family: Wang
     given: C.-N.
+  citation-key: Li2009
   container-title: Molecular Ecology Resources
   ISSN: '17550998'
   issue: '1'
@@ -1203,6 +1246,7 @@ references:
     given: Chun-Neng
   - family: Quandt
     given: Dietmar
+  citation-key: Li2009a
   container-title: Plant Systematics and Evolution
   DOI: 10.1007/s00606-009-0188-2
   ISSN: 1615-6110
@@ -1229,6 +1273,7 @@ references:
     given: Michael D
   - family: Pryer
     given: Kathleen M
+  citation-key: Li2011
   container-title: PLoS ONE
   DOI: 10.1371/journal.pone.0026597
   ISSN: 1932-6203
@@ -1251,6 +1296,7 @@ references:
     given: Kathleen M.
   - family: Rothfels
     given: Carl J.
+  citation-key: Li2016b
   container-title: Genome biology and evolution
   DOI: 10.1093/gbe/evw167
   ISSN: '17596653'
@@ -1273,6 +1319,7 @@ references:
     given: Fay-Wei
   - family: Harkess
     given: Alex
+  citation-key: Li2018c
   container-title: Applications in Plant Sciences
   container-title-short: Appl Plant Sci
   DOI: 10/gfx7sg
@@ -1298,6 +1345,7 @@ references:
     given: Johannes
   - family: Schneider
     given: Harald
+  citation-key: Liu2018
   container-title: Plant Systematics and Evolution
   DOI: 10.1007/s00606-018-1529-9
   ISSN: '16156110'
@@ -1324,6 +1372,7 @@ references:
     given: Daniel J
   - family: Vogt
     given: Kristiina A
+  citation-key: Mafune2020
   container-title: BioTechniques
   container-title-short: BioTechniques
   DOI: 10/gkmqsm
@@ -1347,6 +1396,7 @@ references:
     given: C
   - family: Paulay
     given: G
+  citation-key: Meyer2005
   container-title: PLoS Biology
   issue: '12'
   issued:
@@ -1370,6 +1420,7 @@ references:
     given: Hisako
   - family: Serizawa
     given: Shunsuke
+  citation-key: Murakami1999
   container-title: Journal of Plant Research
   DOI: 10.1007/PL00013856
   ISSN: 0918-9440
@@ -1394,6 +1445,7 @@ references:
     given: Erika
   - family: Yoneoka
     given: Katsuhiro
+  citation-key: Murakami2021
   container-title: BSJ-Review
   DOI: 10.24480/bsj-review.12c3.00211
   issued:
@@ -1412,6 +1464,7 @@ references:
     given: B. K.
   - family: Kaur
     given: S
+  citation-key: Nayar1971
   container-title: The Botanical Review
   issue: '3'
   issued:
@@ -1429,6 +1482,7 @@ references:
     given: A
   - family: Ragupathy
     given: S
+  citation-key: Newmaster2006
   container-title: Canadian Journal of Botany
   ISSN: 1480-3305
   issued:
@@ -1443,6 +1497,7 @@ references:
   author:
   - family: Nitta
     given: Joel H.
+  citation-key: Nitta2008
   container-title: Taxon
   DOI: 10.1002/tax.573006
   issue: '3'
@@ -1462,6 +1517,7 @@ references:
     given: Joel H.
   - family: Epps
     given: M J
+  citation-key: Nitta2009
   container-title: Brittonia
   DOI: 10.1007/s12228-009-9097-5
   issue: '4'
@@ -1484,6 +1540,7 @@ references:
     given: Ravahere
   - family: Davis
     given: Charles C
+  citation-key: Nitta2017
   container-title: Ecological Monographs
   DOI: 10.1002/ecm.1246
   ISSN: 00129615
@@ -1510,6 +1567,7 @@ references:
     given: James E.
   - family: Davis
     given: Charles C.
+  citation-key: Nitta2020
   container-title: New Phytologist
   container-title-short: New Phytol
   DOI: 10.1111/nph.16607
@@ -1536,6 +1594,7 @@ references:
     given: Atsushi
   - family: Smith
     given: Alan R
+  citation-key: Nitta2020c
   container-title: PLOS ONE
   DOI: 10.1371/journal.pone.0241231
   issue: '11'
@@ -1566,6 +1625,7 @@ references:
     given: Tristan W.
   - family: Davis
     given: Charles C.
+  citation-key: Nitta2021
   container-title: Journal of Plant Research
   container-title-short: J Plant Res
   DOI: 10.1007/s10265-021-01318-z
@@ -1586,6 +1646,7 @@ references:
   author:
   - family: Page
     given: Christopher
+  citation-key: Page2002
   container-title: Review of Palaeobotany and Palynology
   issue: 1-2
   issued:
@@ -1607,6 +1668,7 @@ references:
     given: Jung Sung
   - family: Kim
     given: Hyoung Tae
+  citation-key: Park2020
   container-title: Ecology and Evolution
   container-title-short: Ecol Evol
   DOI: 10/gg4vzq
@@ -1616,13 +1678,14 @@ references:
     month: 7
     day: 7
   language: en
-  page: ece3.6510
+  page: 7826–7838
   source: DOI.org (Crossref)
   title: Study of the independent gametophytes found on Jeju Island in South Korea
     and the first record of the obligate independent gametophyte of *Antrophyum obovatum*
     Baker
   type: article-journal
   URL: https://onlinelibrary.wiley.com/doi/abs/10.1002/ece3.6510
+  volume: '10'
 - id: Park2021
   accessed:
   - year: 2021
@@ -1635,6 +1698,7 @@ references:
     given: Jung Sung
   - family: Kim
     given: Hyoung Tae
+  citation-key: Park2021
   container-title: Plants
   container-title-short: Plants
   DOI: 10/gkd2ff
@@ -1671,6 +1735,7 @@ references:
     given: Tim
   - family: Papadopulos
     given: Alexander S. T.
+  citation-key: Parker2017
   container-title: Scientific Reports
   container-title-short: Sci Rep
   DOI: 10/gbtv3n
@@ -1696,6 +1761,7 @@ references:
     given: Jerald B
   - family: Schuettpelz
     given: Eric
+  citation-key: Pinson2016
   container-title: American Journal of Botany
   DOI: 10.3732/ajb.1500522
   ISSN: 0002-9122
@@ -1719,6 +1785,7 @@ references:
     given: Li-Yaung
   - family: Sessa
     given: Emily B
+  citation-key: Pinson2016a
   container-title: International Journal of Plant Sciences
   DOI: 10.1086/688773
   ISSN: 1058-5893
@@ -1745,6 +1812,7 @@ references:
     given: Sally M.
   - family: Sessa
     given: Emily B.
+  citation-key: Pinson2017
   container-title: American Fern Journal
   container-title-short: American Fern Journal
   DOI: 10/gcrw5d
@@ -1785,6 +1853,7 @@ references:
     given: David
   - family: Prost
     given: Stefan
+  citation-key: Pomerantz2018
   container-title: GigaScience
   DOI: 10/gc84n7
   ISSN: 2047-217X
@@ -1794,6 +1863,7 @@ references:
     month: 4
     day: 1
   language: en
+  page: giy033
   source: DOI.org (Crossref)
   title: 'Real-time DNA barcoding in a rainforest using nanopore sequencing: Opportunities
     for rapid biodiversity assessments and local capacity building'
@@ -1821,6 +1891,7 @@ references:
     given: William
   - family: Vogler
     given: Alfried
+  citation-key: Pons2006
   container-title: Systematic Biology
   DOI: 10.1080/10635150600852011
   ISSN: 1063-5157
@@ -1839,6 +1910,7 @@ references:
     given: Tom A
   - family: Houston
     given: H
+  citation-key: Ranker2002
   container-title: American Fern Journal
   ISSN: 1938-422X
   issue: '2'
@@ -1858,6 +1930,7 @@ references:
     given: Kathleen M
   - family: Li
     given: Fay-Wei
+  citation-key: Rothfels2017
   container-title: New Phytologist
   DOI: 10.1002/elan.
   ISSN: 1543-3080
@@ -1875,6 +1948,7 @@ references:
     given: Harald
   - family: Schuettpelz
     given: Eric
+  citation-key: Schneider2006a
   container-title: Molecular Ecology Notes
   DOI: 10.1111/j.1471-8286.2006.01424.x
   issued:
@@ -1910,6 +1984,7 @@ references:
     given: Niranjan
   - family: Meier
     given: Rudolf
+  citation-key: Srivathsan2018
   container-title: Molecular Ecology Resources
   container-title-short: Mol Ecol Resour
   DOI: 10/gdm854
@@ -1931,6 +2006,7 @@ references:
     given: Sally M.
   - family: Emery
     given: Nancy C.
+  citation-key: Stevens2015
   container-title: Diversity and Distributions
   DOI: 10.1111/ddi.12323
   ISSN: '13669516'
@@ -1945,25 +2021,26 @@ references:
 - id: Taberlet2007
   author:
   - family: Taberlet
-    given: P
-  - family: Eric
-    given: C
-  - family: Francios
-    given: P
-  - family: Ludovic
-    given: G
+    given: Pierre
+  - family: Coissac
+    given: Eric
+  - family: Pompanon
+    given: François
+  - family: Gielly
+    given: Ludovic
+  - family: Miquel
+    given: Christian
+  - family: Valentini
+    given: Alice
+  - family: Vermat
+    given: Thierry
+  - family: Corthier
+    given: Gérard
   - family: Christian
-    given: M
-  - family: Alice
-    given: V
-  - family: Thierry
-    given: V
-  - family: Gerard
-    given: C
-  - family: Christian
-    given: B
-  - family: Eske
-    given: W
+    given: Christian
+  - family: Willerslev
+    given: Eske
+  citation-key: Taberlet2007
   container-title: Nucleic Acids Research
   issue: '3'
   issued:
@@ -1980,6 +2057,7 @@ references:
     given: Weston L.
   - family: Sundue
     given: Michael A
+  citation-key: Testo2014a
   container-title: International Journal of Plant Sciences
   DOI: 10.1086/675934
   ISSN: '10585893'
@@ -2010,6 +2088,7 @@ references:
     given: Carlos Alberto
   - family: Velasco-Murguía
     given: Abril
+  citation-key: Trujillo-Argueta2021
   container-title: Scientific Reports
   container-title-short: Sci Rep
   DOI: 10/gnp3c6
@@ -2038,6 +2117,7 @@ references:
     given: J A
   - family: Gibby
     given: Mary
+  citation-key: Vogel1998
   container-title: Botanica Acta
   DOI: 10.1111/j.1438-8677.1998.tb00704.x
   issue: '3'
@@ -2061,6 +2141,7 @@ references:
     given: Atsushi
   - family: Li
     given: De-Zhu
+  citation-key: Wang2016
   container-title: Plos One
   DOI: 10.1371/journal.pone.0160611
   ISSN: 1932-6203
@@ -2083,6 +2164,7 @@ references:
     given: James E.
   - family: Moran
     given: Robbin C.
+  citation-key: Watkins2019
   container-title: International Journal of Plant Sciences
   DOI: 10/gkfj7f
   ISSN: 1058-5893
@@ -2105,8 +2187,10 @@ references:
     given: Jacob L
   - family: Moran
     given: Robbin C
-  - family: Jr
-    given: James E Watkins
+  - family: Watkins Jr.
+    given: James E
+  citation-key: Watts2019
+  container-title: Annals of Botany
   DOI: 10.1093/aob/mcz124
   issued:
   - year: 2019
@@ -2115,3 +2199,25 @@ references:
     record of a hemiepiphyte in the Aspleniaceae'
   type: article-journal
   volume: '124'
+- id: Wu2022
+  author:
+  - family: Wu
+    given: Y.-H.
+  - family: Ke
+    given: Y.-T.
+  - family: Chan
+    given: Y.-Y.
+  - family: Wang
+    given: G.-J.
+  - family: Kuo
+    given: Li-Yaung
+  citation-key: Wu2022
+  container-title: Applications in Plant Sciences
+  issue: '2'
+  issued:
+  - year: 2022
+  page: e11462
+  title: 'Integrating tissue-direct PCR into genetic identification: An upgraded molecular
+    ecology approach to survey fern gametophytes in the field'
+  type: article-journal
+  volume: '10'
