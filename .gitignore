@@ -4,7 +4,7 @@
 .Ruserdata
 .DS_Store
 results
-references_all.yaml
+main_library.yaml
 working
 *_cache
 ~$*.docx
