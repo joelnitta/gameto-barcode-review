@@ -12,11 +12,12 @@ rmd_file <- here::here("gameto-review-ms.Rmd")
 
 # Parse RMD file and extract citation keys
 citations <- 
-  readr::read_lines(rmd_file) %>% 
+  readr::read_lines(rmd_file) %>%
   stringr::str_split(" |;") %>% 
   unlist %>% 
   magrittr::extract(., stringr::str_detect(., "@")) %>% 
-  stringr::str_remove_all("\\[|\\]|\\)|\\(|\\.$|,|\\{|\\}") %>% 
+  stringr::str_remove_all("^[^@]*") %>%
+  stringr::str_remove_all('\\[|\\]|\\)|\\(|\\.$|,|\\{|\\}|\\\\|\\"') %>% 
   magrittr::extract(., stringr::str_detect(., "^@|^-@")) %>% 
   stringr::str_remove_all("^@|^-@") %>% 
   unique %>% 
