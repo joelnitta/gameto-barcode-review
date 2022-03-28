@@ -72,6 +72,13 @@
       "Repository": "CRAN",
       "Hash": "dab19adae4440ae55aa8a9d238b246bb"
     },
+    "RefManageR": {
+      "Package": "RefManageR",
+      "Version": "1.3.0",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Hash": "a31abee042741b1fc1bbb546da687f3f"
+    },
     "WikidataQueryServiceR": {
       "Package": "WikidataQueryServiceR",
       "Version": "1.0.0",
@@ -834,6 +841,19 @@
       "Source": "Repository",
       "Repository": "CRAN",
       "Hash": "320017b52d05a943981272b295750388"
+    },
+    "rmdref": {
+      "Package": "rmdref",
+      "Version": "0.0.0.9000",
+      "Source": "GitHub",
+      "RemoteType": "github",
+      "RemoteHost": "api.github.com",
+      "RemoteUsername": "joelnitta",
+      "RemoteRepo": "rmdref",
+      "RemoteRef": "main",
+      "RemoteSha": "c6b5432787e62fda271e0055bcd0eb065110e93e",
+      "Remotes": "anthonynorth/roxyglobals",
+      "Hash": "98560fe982070e0b79cb5ba01ed0a851"
     },
     "rncl": {
       "Package": "rncl",

@@ -549,8 +549,6 @@ references:
   issue: '1'
   issued:
   - year: 2020
-    month: 5
-    day: 26
   language: en
   number: '1'
   page: '8701'
@@ -1335,6 +1333,30 @@ references:
   type: article-journal
   URL: http://doi.wiley.com/10.1002/aps3.1030
   volume: '6'
+- id: Little2014
+  accessed:
+  - year: 2022
+    month: 3
+    day: 17
+  author:
+  - family: Little
+    given: Damon P.
+  citation-key: Little2014
+  container-title: Molecular Ecology Resources
+  container-title-short: Mol Ecol Resour
+  DOI: 10.1111/1755-0998.12194
+  ISSN: 1755098X
+  issue: '3'
+  issued:
+  - year: 2014
+    month: 5
+  language: en
+  page: 437-446
+  source: DOI.org (Crossref)
+  title: A DNA mini-barcode for land plants
+  type: article-journal
+  URL: https://onlinelibrary.wiley.com/doi/10.1111/1755-0998.12194
+  volume: '14'
 - id: Liu2018
   author:
   - family: Liu
@@ -1472,7 +1494,6 @@ references:
   page: 295-396
   title: Gametophytes of homosporous ferns
   type: article-journal
-  URL: papers://ebd7d3df-d8f1-4be8-bcf7-4fb07ababf30/Paper/p1571
   volume: '37'
 - id: Newmaster2006
   author:
